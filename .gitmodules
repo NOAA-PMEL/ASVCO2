@@ -1,0 +1,6 @@
+[submodule "pCO2Sensor"]
+	path = pCO2Sensor
+	url = https://github.com/NOAA-PMEL/EDD-pCO2Sensor.git
+[submodule "FlowController"]
+	path = FlowController
+	url = https://github.com/NOAA-PMEL/EDD-FlowController.git
