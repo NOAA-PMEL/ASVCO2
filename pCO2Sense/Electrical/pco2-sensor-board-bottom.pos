@@ -1,0 +1,34 @@
+### Footprint positions - created on Mon Aug 28 10:42:54 2023 ###
+### Printed by KiCad version 7.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                 Package                  PosX       PosY       Rot  Side
+C21       100n                C_0805_2012Metric    109.4400  -100.5800   90.0000  bottom
+C25       10u                 C_0805_2012Metric    112.9900  -104.7800  180.0000  bottom
+C61       47p                 C_0805_2012Metric    147.0000  -100.1300    0.0000  bottom
+C101      100n                C_0805_2012Metric    162.2400  -106.6800    0.0000  bottom
+R2        100                 R_0805_2012Metric    150.3275  -127.1800  180.0000  bottom
+R4        100                 R_0805_2012Metric    150.3275  -123.7800  180.0000  bottom
+R5        100                 R_0805_2012Metric    139.3425  -100.1300  180.0000  bottom
+R6        100                 R_0805_2012Metric    137.1525  -106.4800  180.0000  bottom
+R10       100                 R_0805_2012Metric    157.8375  -110.4900  180.0000  bottom
+R15       100                 R_0805_2012Metric    157.8375  -114.3000  180.0000  bottom
+R50       330                 R_0805_2012Metric    110.3275  -118.3800    0.0000  bottom
+R51       330                 R_0805_2012Metric    126.8400  -126.0925  -90.0000  bottom
+R52       470                 R_0805_2012Metric    115.2125  -127.0000  180.0000  bottom
+R60       1.5k                R_0805_2012Metric    151.1300  -110.4900    0.0000  bottom
+R99       100                 R_0805_2012Metric    119.3800  -121.9200  -90.0000  bottom
+R100      100                 R_0805_2012Metric    115.9275  -123.1900  180.0000  bottom
+R101      100                 R_0805_2012Metric    125.7300  -121.5625  -90.0000  bottom
+R102      100                 R_0805_2012Metric    121.9200  -121.9200  -90.0000  bottom
+R103      100                 R_0805_2012Metric    139.7000  -110.4900  180.0000  bottom
+R104      100                 R_0805_2012Metric    139.3425   -93.7800  180.0000  bottom
+R105      4.7k                R_0805_2012Metric    134.9775  -110.4900    0.0000  bottom
+R107      4.7k                R_0805_2012Metric    146.0500  -109.3775   90.0000  bottom
+R108      4.7k                R_0805_2012Metric    143.1000  -109.3775   90.0000  bottom
+R109      10k                 R_0805_2012Metric    137.1525  -104.3800    0.0000  bottom
+R110      10k                 R_0805_2012Metric    140.0400  -107.4925   90.0000  bottom
+R111      10k                 R_0805_2012Metric    151.4875  -104.3900  180.0000  bottom
+R112      10k                 R_0805_2012Metric    151.4875  -107.3400  180.0000  bottom
+U20       ISL60002BIH310Z-TK  ISL60002BIH310Z-TK   113.0300  -101.6000   90.0000  bottom
+## End

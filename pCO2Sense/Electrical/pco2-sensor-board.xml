@@ -1,0 +1,4060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\kurina\Documents\GitHub\EDD-pco2-controller-kicad\pco2-sensor-board\pco2-sensor-board.kicad_sch</source>
+    <date>8/8/2024 6:26:07 PM</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>pco2-sensor-board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>watchdog.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>rtc.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>oxygen.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>rh_and_temp.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>15v_dc_regulator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Dual Serial Interface 2/" tstamps="/1977e717-105a-4377-a9c2-fd249f94f889/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>dual_serial_interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>dual_uart_controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Dual Serial Interface 1/" tstamps="/4c83b051-812e-4a8a-a530-71422577d756/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>dual_serial_interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>peripheral_power_control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/">
+      <title_block>
+        <title>PCO2 Sensor Board</title>
+        <company>Engineering</company>
+        <rev>201</rev>
+        <date/>
+        <source>3v3_dc_regulator.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value="Matt Casari"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="DRAFT"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C50">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX7R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0805KKX7R7BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d599dc50-caa5-4cd7-ab8d-76d39d872a29</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX7R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0805KKX7R7BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6056692d-2f89-4b71-b306-48efa30398c4</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX7R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0805KKX7R7BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca57e48f-fc84-4b34-b308-2ff050bc7a12</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CL21A475KAQNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CL21A475KAQNNNE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a554cfca-001c-471e-bcea-4092386b7b60</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX7R7BB105</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CC0805KKX7R7BB105"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8b4eb07-7dbc-4c75-8e60-e32143e829b3</tstamps>
+    </comp>
+    <comp ref="FL50">
+      <value>MEM2012F10R0</value>
+      <footprint>pco2-sensor-board:MEM2012F10R0</footprint>
+      <fields>
+        <field name="MPN">MEM2012F10R0</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="MEM2012F10R0" description=""/>
+      <property name="MPN" value="MEM2012F10R0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6465d628-c020-46aa-b92d-aa8be302aa83</tstamps>
+    </comp>
+    <comp ref="GRN_LED1">
+      <value>LGR971-KN-1</value>
+      <footprint>pco2-sensor-board:LGR971-KN-1</footprint>
+      <fields>
+        <field name="MPN">LGR971-KN-1</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="LGR971-KN-1" description=""/>
+      <property name="MPN" value="LGR971-KN-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>393612fe-ca3f-4a4d-b9b3-70fd84892062</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aafa3be1-d5d5-4862-9f15-d457e7cd71b0</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f3a1ef5-9963-447c-9320-5a2e6e80e861</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fbb4c90-9eef-4f83-89f5-596a06ebc002</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5548d5e2-5c33-4c1d-a3cc-d5847551f6a1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>430450402</value>
+      <footprint>pco2-sensor-board:430450402</footprint>
+      <fields>
+        <field name="MPN">430450402</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="430450402" description=""/>
+      <property name="MPN" value="430450402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f6fc4e-fac6-4971-a153-a8aaeeba5267</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>430450202</value>
+      <footprint>pco2-sensor-board:430450202</footprint>
+      <fields>
+        <field name="MPN">430450202</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="430450202" description=""/>
+      <property name="MPN" value="430450202"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94a34aca-1bf8-45a0-9cc5-2cf3fc08cdd9</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>430450402</value>
+      <footprint>pco2-sensor-board:430450402</footprint>
+      <fields>
+        <field name="MPN">430450402</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="430450402" description=""/>
+      <property name="MPN" value="430450402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1303209-9df3-4eec-a94c-171184b3e8ec</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>430450402</value>
+      <footprint>pco2-sensor-board:430450402</footprint>
+      <fields>
+        <field name="MPN">430450402</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="430450402" description=""/>
+      <property name="MPN" value="430450402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d419a75b-1438-4203-80ad-d539eabcf463</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>430450402</value>
+      <footprint>pco2-sensor-board:430450402</footprint>
+      <fields>
+        <field name="MPN">430450402</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="430450402" description=""/>
+      <property name="MPN" value="430450402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f32cf8cf-025e-4018-bee2-d1e1c1145763</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>430450602</value>
+      <footprint>pco2-sensor-board:430450602</footprint>
+      <fields>
+        <field name="MPN">430450602</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="430450602" description=""/>
+      <property name="MPN" value="430450602"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31bda275-868b-4fc3-bd1e-2d3de2184c48</tstamps>
+    </comp>
+    <comp ref="JTAG_MINI1">
+      <value>3220-10-0100-00</value>
+      <footprint>pco2-sensor-board:3220-10-0100-00</footprint>
+      <fields>
+        <field name="MPN">3220-10-0100-00</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="3220-10-0100-00" description=""/>
+      <property name="MPN" value="3220-10-0100-00"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea6cbf5a-c212-4074-877a-dbdfd5523ff7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>541bb5ef-efce-4553-b667-a677366b9e93</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f86786b-6eab-4bef-a71f-bb982bb4927e</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1535a7d2-0c98-480a-97a8-0699c6a816fc</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1d3a1f1-637f-4be4-af93-e9eb28512883</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805330RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805330RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1a451f1-a0f9-4c99-a53f-794fa8d7f961</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805330RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805330RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>accfff0e-c176-4f07-8c03-85b3b6840794</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805470RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805470RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>628c4096-0a8e-4aad-8e4f-351dd5247a5c</tstamps>
+    </comp>
+    <comp ref="R99">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1af4bb8-64ce-4a39-9f20-034472196b1d</tstamps>
+    </comp>
+    <comp ref="R100">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d45ebf2-2389-4a0a-8124-46c01938d4c2</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b2c8430-11ff-429c-9a41-d4bcea293a2b</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3bff296-22cc-4faa-bd9f-3c930c64776a</tstamps>
+    </comp>
+    <comp ref="RED_LED1">
+      <value>LS R976-NR-1</value>
+      <footprint>pco2-sensor-board:LGR971-KN-1</footprint>
+      <fields>
+        <field name="MPN">LS R976-NR-1</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="LSR976-NR-1" description=""/>
+      <property name="MPN" value="LS R976-NR-1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>574abad7-a9d7-42e8-b07f-4ab3428b5182</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MSP430FR5994IPNR</value>
+      <footprint>pco2-sensor-board:MSP430FR5994IPNR</footprint>
+      <libsource lib="pco2-sensor-board" part="MSP430FR5994IPNR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e447a63-e537-4f37-a558-c24a7a860dca</tstamps>
+    </comp>
+    <comp ref="U50">
+      <value>KC2520Z7.37280C1KX00</value>
+      <footprint>pco2-sensor-board:SG-210STF 7.3728ML</footprint>
+      <fields>
+        <field name="MPN">SG-210STF 7.3728ML</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="SG-210STF 7.3728ML" description=""/>
+      <property name="MPN" value="SG-210STF 7.3728ML"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="pco2-sensor-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>388d49c0-260f-403d-acd2-b8373381145b</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>2.2n</value>
+      <footprint>pco2-sensor-board:CAPC2013X88N</footprint>
+      <fields>
+        <field name="MPN">C0805C222F5GACTU</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="C0805C222K5RACTU" description=""/>
+      <property name="MPN" value="C0805C222F5GACTU"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>d95ea2a1-4aa2-4311-b0ee-e74a68e87beb</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SI1330EDL-T1-GE3</value>
+      <footprint>pco2-sensor-board:SI1330EDL-T1-GE3</footprint>
+      <fields>
+        <field name="MPN">SI1330EDL-T1-GE3</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="SI1330EDL-T1-GE3" description="N-MOSFET transistor, gate/source/drain"/>
+      <property name="MPN" value="SI1330EDL-T1-GE3"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <property name="ki_description" value="N-MOSFET transistor, gate/source/drain"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>4abccf0b-796a-4042-b3f1-bd6e2227379b</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>30k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080530K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080530K0FKEAC"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>5be3b7a9-fe05-4708-b2a4-d0017dc8d562</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>fed28237-16f4-493f-aa5d-bdaebcfe4650</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100KFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100KFKEAC"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>9792c3e9-17fd-4d23-9661-349eb5d49b50</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>9fa0f542-562e-4893-88f9-b97c7d5b0ef1</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080547K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080547K0FKEAC"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>880b9415-d7e2-44ec-8369-9db25688738a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPL5010DDCR</value>
+      <footprint>pco2-sensor-board:TPL5010DDCR</footprint>
+      <fields>
+        <field name="MPN">TPL5010DDCR</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="TPL5010DDCR" description=""/>
+      <property name="MPN" value="TPL5010DDCR"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>635672ac-5e5f-476f-826a-b58768c50eda</tstamps>
+    </comp>
+    <comp ref="U30">
+      <value>SN74LVC1G240DBVR</value>
+      <footprint>pco2-sensor-board:SN74LVC1G240DBVR</footprint>
+      <fields>
+        <field name="MPN">SN74LVC1G240DBVR</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="SN74LVC1G240DBVR" description=""/>
+      <property name="MPN" value="SN74LVC1G240DBVR"/>
+      <property name="Sheetname" value="Watchdog Timer"/>
+      <property name="Sheetfile" value="watchdog.kicad_sch"/>
+      <sheetpath names="/Watchdog Timer/" tstamps="/5696cca0-e780-4a79-9849-adf9c78f4486/"/>
+      <tstamps>e8f40a39-8ab4-4f45-b065-acb4d294537e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>DHL-5R5D224T</value>
+      <footprint>pco2-sensor-board:DHL-5R5D224T</footprint>
+      <datasheet>https://eu.mouser.com/datasheet/2/129/dhl_e-5207.pdf</datasheet>
+      <fields>
+        <field name="MPN">DHL-5R5D224T</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="DHL-5R5D224T" description="Supercapacitors / Ultracapacitors .22F 5.5V -20+80% 13.5 x 9.5mm"/>
+      <property name="MPN" value="DHL-5R5D224T"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Supercapacitors / Ultracapacitors .22F 5.5V -20+80% 13.5 x 9.5mm"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>0a87629a-df57-4139-8fe2-57cf9ea39931</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>6d260bd2-2c82-4230-991f-3eb1ac8b3d65</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805X470F5GACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805X470F5GACTU"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>67593e69-7ca5-4e28-bc79-e725a33baf05</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>69680726-66be-4ba9-94a1-0cc47b27b4e6</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>1d788cf3-0e3c-4d5c-9fd7-ef1b265358f2</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>1.5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051K50FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051K50FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>1386b6db-b384-4605-8371-19ff9c6d078c</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>0f0d75e3-9508-412c-bbc4-3b7a07690930</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>b167dc0e-66fe-4ca7-9557-c47b9a56d1c8</tstamps>
+    </comp>
+    <comp ref="R107">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08054K70FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08054K70FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>73b027bd-2856-4521-beef-1143c2477132</tstamps>
+    </comp>
+    <comp ref="R108">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08054K70FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08054K70FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>8a688ea6-e428-4a36-bf32-3caf8bde7f5b</tstamps>
+    </comp>
+    <comp ref="R109">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>9d936cdb-70e6-41df-9c17-4a38360801b2</tstamps>
+    </comp>
+    <comp ref="R110">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>c66491ca-881b-46fe-af51-2360696d2936</tstamps>
+    </comp>
+    <comp ref="R111">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>a4b69610-7bf0-4bc4-abc8-931f83fdae55</tstamps>
+    </comp>
+    <comp ref="R112">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>ec4ff690-9afd-4cae-a39e-021b85a107b7</tstamps>
+    </comp>
+    <comp ref="R113">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>cadd1e45-4859-4828-a18d-5ff074e17fb4</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AB0805-T3</value>
+      <footprint>pco2-sensor-board:QFN50P300X300X90-17N</footprint>
+      <fields>
+        <field name="MPN">AB0805-T3</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="AB0805-T3" description=""/>
+      <property name="MPN" value="AB0805-T3"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>536a1aaa-8f6a-4f1f-9e5f-23261e3b344d</tstamps>
+    </comp>
+    <comp ref="Y60">
+      <value>ABS06-107-32.768KHZ-T</value>
+      <footprint>pco2-sensor-board:ABS0610732768KHZT</footprint>
+      <datasheet>http://www.abracon.com/Resonators/ABS06-107-32.768kHz-T.pdf</datasheet>
+      <fields>
+        <field name="Description">ABRACON - ABS06-107-32.768KHZ-T - CRYSTAL, 32.768KHZ, 4PF, 2 X 1.2MM</field>
+        <field name="MPN">ABS06-107-32.768KHZ-T</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="ABS06-107-32.768KHZ-T" description=""/>
+      <property name="Description" value="ABRACON - ABS06-107-32.768KHZ-T - CRYSTAL, 32.768KHZ, 4PF, 2 X 1.2MM"/>
+      <property name="MPN" value="ABS06-107-32.768KHZ-T"/>
+      <property name="Sheetname" value="Real-Time Clock"/>
+      <property name="Sheetfile" value="rtc.kicad_sch"/>
+      <sheetpath names="/Real-Time Clock/" tstamps="/21f8617a-5c66-4374-8d24-aebcae6cb4b8/"/>
+      <tstamps>52b7d709-395a-422c-933f-2571624acc9b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>2fabfba4-14c1-48cf-9479-31eab0443aab</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>6e8245b8-6e70-4974-9028-42d72eda795e</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CGA4J1X7R0J106K125AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CGA4J1X7R0J106K125AC"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>0ef48543-e12e-4211-877a-539c86607c89</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>pco2-sensor-board:CAPC2012X88N</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="C0805C104M5RACTU" description=""/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>663b5214-3af0-4070-a4b7-d714d2b81aef</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CGA4J1X7R0J106K125AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="CGA4J1X7R0J106K125AC"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>5b8df255-cc3b-4c02-a243-47542dc6b406</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>e9b5fed0-b830-4ef4-be43-3988072ef7d8</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>26fb4464-4144-4242-bc39-354ddc802257</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>11b97f40-a983-42b1-ae18-b0fdef323f26</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>a19ad748-29b9-47c7-bedc-301924e6f19d</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>e0f3ab6d-4430-49be-9fe0-2ddebd038a05</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K7FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K7FKEAC"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>04c8baa7-f597-49b5-afe7-117c0131fee7</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>309k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805309KFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805309KFKEA"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>7087def6-a131-4000-9935-578da7124c04</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051K00FKEAC"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>d57a7a5f-9baf-4f15-ab2f-d1f1e55e5eb4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LT1672IS8-PBF</value>
+      <footprint>pco2-sensor-board:LT1672IS8-PBF</footprint>
+      <fields>
+        <field name="MPN">LT1672IS8-PBF</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="LT1672IS8-PBF" description=""/>
+      <property name="MPN" value="LT1672IS8-PBF"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>2982a56f-abd1-4c08-896b-6d7110bfab6d</tstamps>
+    </comp>
+    <comp ref="U20">
+      <value>ISL60002BIH310Z-TK</value>
+      <footprint>pco2-sensor-board:ISL60002BIH310Z-TK</footprint>
+      <fields>
+        <field name="MPN">ISL60002BIH310Z-TK</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="ISL60002BIH310Z-TK" description=""/>
+      <property name="MPN" value="ISL60002BIH310Z-TK"/>
+      <property name="Sheetname" value="Oxygen Sensor"/>
+      <property name="Sheetfile" value="oxygen.kicad_sch"/>
+      <sheetpath names="/Oxygen Sensor/" tstamps="/dad22879-b1ac-43da-b9ea-c180b901ff73/"/>
+      <tstamps>8db1516b-a497-4118-a894-7312b77280f6</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">C0603C104K5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0603C104K5RACTU"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>98874a37-052c-49b6-a836-1ba5ecbbc19c</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">C0603C104K5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0603C104K5RACTU"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>d0e42a91-d3fa-4997-b941-e8b02e591a51</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>e8133266-ed02-4cea-92d8-c6c20095cfb2</tstamps>
+    </comp>
+    <comp ref="R97">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>bf92ce69-1ab2-4820-8388-dd166337e1b3</tstamps>
+    </comp>
+    <comp ref="R98">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>3c224507-1d8e-4016-8571-36b17a9623bd</tstamps>
+    </comp>
+    <comp ref="R105">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08054K70FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08054K70FKEAC"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>f259d6c1-3992-4ac1-b16b-967126a26d7f</tstamps>
+    </comp>
+    <comp ref="R106">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08054K70FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08054K70FKEAC"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>a36eda5a-cd31-41f0-850c-57d20592edf3</tstamps>
+    </comp>
+    <comp ref="U21">
+      <value>BME280</value>
+      <footprint>pco2-sensor-board:BME280</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462906.pdf</datasheet>
+      <fields>
+        <field name="MPN">BME280</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="BME280" description="Board Mount Humidity Sensors"/>
+      <property name="MPN" value="BME280"/>
+      <property name="Sheetname" value="RH and Temp Sensor"/>
+      <property name="Sheetfile" value="rh_and_temp.kicad_sch"/>
+      <property name="ki_description" value="Board Mount Humidity Sensors"/>
+      <sheetpath names="/RH and Temp Sensor/" tstamps="/6dbca042-dc43-4375-88f0-8fe0c240d5b5/"/>
+      <tstamps>8b7aca8e-64cb-4ff7-bcf8-4d163ec66fa6</tstamps>
+    </comp>
+    <comp ref="15V1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>cae3512b-0e8d-45d0-b0e2-c78604173415</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Description">100V</field>
+        <field name="MPN">C0805X103K2RAC3316</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="100V"/>
+      <property name="MPN" value="C0805X103K2RAC3316"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>661541fb-98a9-4f66-87d9-afff9dbcceb4</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>fe924edb-8165-43a2-9058-47993ccf290d</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Description">50V</field>
+        <field name="MPN">C2012X5R1H106K125AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="50V"/>
+      <property name="MPN" value="C2012X5R1H106K125AC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>ea1eeabf-1271-4f5a-9893-e26507e3bd16</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Description">100V</field>
+        <field name="MPN">C2012X7S2A105K125AE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="100V"/>
+      <property name="MPN" value="C2012X7S2A105K125AE"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>d1616fbe-f077-4b9e-9cb0-0a6a3af6d1d5</tstamps>
+    </comp>
+    <comp ref="C90">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32EC72A106KE05L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM32EC72A106KE05L"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>f6e1cb63-c3bd-4473-8d14-9fe9da2edaf2</tstamps>
+    </comp>
+    <comp ref="C91">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X7R1H475K125AE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C2012X7R1H475K125AE"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>4e2cdb08-31bc-4444-8203-25a1c9c6ba2c</tstamps>
+    </comp>
+    <comp ref="C92">
+      <value>91p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C910J1GACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C910J1GACTU"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>1dd06073-c821-4545-b823-8939f2f7a4f9</tstamps>
+    </comp>
+    <comp ref="C93">
+      <value>4.7n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C472K5RACAUTO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C472K5RACAUTO"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>67f26153-ff2c-4949-8d1b-124f86de2cff</tstamps>
+    </comp>
+    <comp ref="C94">
+      <value>110p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C111J5GACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C111J5GACTU"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>21e17121-da57-4ee7-be9e-28e0b654ed71</tstamps>
+    </comp>
+    <comp ref="C95">
+      <value>22u</value>
+      <footprint>pco2-sensor-board:CKG57NX7S1H226M500JH</footprint>
+      <fields>
+        <field name="MPN">CKG57NX7S1H226M500JH</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="22u,2917" description=""/>
+      <property name="MPN" value="CKG57NX7S1H226M500JH"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>8f700851-d79d-4242-8774-a81b64734e47</tstamps>
+    </comp>
+    <comp ref="C96">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>5c52d968-3fcd-4853-a675-e40bdbda82c8</tstamps>
+    </comp>
+    <comp ref="C97">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>92344b30-cd71-49f4-9a12-ea45ce1e6cb8</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>MPZ1608S101ATD25</value>
+      <footprint>pco2-sensor-board:MPZ1608S101ATD25</footprint>
+      <fields>
+        <field name="MPN">MPZ1608S101ATD25</field>
+        <field name="Notes">1kOhm@100MHz</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="MPZ1608S101ATD25" description=""/>
+      <property name="Notes" value="1kOhm@100MHz"/>
+      <property name="MPN" value="MPZ1608S101ATD25"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>7ccb1c6c-3ae6-4fb4-8e24-0b0bb6605007</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>33uH</value>
+      <footprint>pco2-sensor-board:7443551331</footprint>
+      <datasheet>http://componentsearchengine.com/Datasheets/1/7443551331.pdf</datasheet>
+      <fields>
+        <field name="Description">SMD-Flat Wire High Current Inductor WE-HCI</field>
+        <field name="MPN">7443551331</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="7443551331" description="SMD-Flat Wire High Current Inductor WE-HCI"/>
+      <property name="Description" value="SMD-Flat Wire High Current Inductor WE-HCI"/>
+      <property name="MPN" value="7443551331"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="SMD-Flat Wire High Current Inductor WE-HCI"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>9c4d1674-1db9-45e4-b820-32e7e32ee4ce</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>71.5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080571K5FKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080571K5FKEA"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>da14bda1-fbda-4f90-8059-1ab61515da1a</tstamps>
+    </comp>
+    <comp ref="R90">
+      <value>24.9k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080524K9FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080524K9FKEAC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>27cbdfb1-0b02-4eec-ad28-737191ce54da</tstamps>
+    </comp>
+    <comp ref="R91">
+      <value>71.5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080571K5FKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080571K5FKEA"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>e8be686f-367a-434f-84f3-f97d99415844</tstamps>
+    </comp>
+    <comp ref="R92">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051M00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051M00FKEAC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>b754ffbe-c2f5-43a9-836f-905913e39eb1</tstamps>
+    </comp>
+    <comp ref="R93">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080520K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080520K0FKEAC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>5ce686d2-82da-40ee-8b23-4fdaadcd8421</tstamps>
+    </comp>
+    <comp ref="R94">
+      <value>1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051R00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051R00FKEAC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>a35a1b90-e703-4868-b2b0-eb54262f9abf</tstamps>
+    </comp>
+    <comp ref="R114">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>36fbcf3a-2ab4-40b1-9077-492844c93790</tstamps>
+    </comp>
+    <comp ref="R115">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080510K0FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080510K0FKEAC"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>2a3b52a0-7668-45b0-991e-d11de6c086dc</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>LTC3115IDHD-1-PBF</value>
+      <footprint>pco2-sensor-board:LTC3115IDHD-1-PBF</footprint>
+      <fields>
+        <field name="MPN">LTC3115IDHD-1-PBF</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="LTC3115IDHD-1-PBF" description=""/>
+      <property name="MPN" value="LTC3115IDHD-1-PBF"/>
+      <property name="Sheetname" value="15V DC Regulator"/>
+      <property name="Sheetfile" value="15v_dc_regulator.kicad_sch"/>
+      <sheetpath names="/15V DC Regulator/" tstamps="/9e096ccb-58aa-43cc-b3c1-dc78acce391e/"/>
+      <tstamps>42a08d08-e978-4f5f-9e4d-85b5134cde40</tstamps>
+    </comp>
+    <comp ref="C98">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 2"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 2/" tstamps="/1977e717-105a-4377-a9c2-fd249f94f889/"/>
+      <tstamps>3c57421d-3cef-4667-802e-1c37f73d8f2f</tstamps>
+    </comp>
+    <comp ref="C99">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 2"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 2/" tstamps="/1977e717-105a-4377-a9c2-fd249f94f889/"/>
+      <tstamps>edafa384-b12a-4264-ab42-fda32b9f0a70</tstamps>
+    </comp>
+    <comp ref="C100">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 2"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 2/" tstamps="/1977e717-105a-4377-a9c2-fd249f94f889/"/>
+      <tstamps>664233ce-af1f-47cd-ba59-d210f53f97ac</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 2"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 2/" tstamps="/1977e717-105a-4377-a9c2-fd249f94f889/"/>
+      <tstamps>c224f7c1-d02f-4b53-a65e-11fa4dd084cc</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>MAX3224EETP+</value>
+      <footprint>pco2-sensor-board:MAX3224EETP+</footprint>
+      <fields>
+        <field name="MPN">MAX3224EETP+</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="MAX3224EETP+" description=""/>
+      <property name="MPN" value="MAX3224EETP+"/>
+      <property name="Sheetname" value="Dual Serial Interface 2"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <sheetpath names="/Dual Serial Interface 2/" tstamps="/1977e717-105a-4377-a9c2-fd249f94f889/"/>
+      <tstamps>3ccea154-bb52-4b62-9905-912371dad7d4</tstamps>
+    </comp>
+    <comp ref="C80">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>13cccade-b319-4fc5-9ecc-ae00f84bfb25</tstamps>
+    </comp>
+    <comp ref="C81">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>a86b26ae-cac0-4ba1-aba8-c79419e62dd0</tstamps>
+    </comp>
+    <comp ref="C82">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>d55931ae-85b7-4464-8a2a-349b5c114ecd</tstamps>
+    </comp>
+    <comp ref="C83">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105J3RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C105J3RACTU"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>0cf9f44e-35e9-471c-92ca-0cf0416942c4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>a1f3fd6d-e2ba-4690-b862-6ff69594bf2a</tstamps>
+    </comp>
+    <comp ref="R84">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>66926a60-d8d2-493f-a920-273038db97e6</tstamps>
+    </comp>
+    <comp ref="R85">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>82f1b5c8-6486-49a1-9dfb-f1fd6aae2c2c</tstamps>
+    </comp>
+    <comp ref="R86">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>9099cda4-fe9e-4cc9-b73b-60206c6ea2bd</tstamps>
+    </comp>
+    <comp ref="R87">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>f3b3d1bb-001c-4688-80cd-1c5f8ef6cbc6</tstamps>
+    </comp>
+    <comp ref="R88">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>f0f4d209-20a4-4b67-94dc-c87b1c0d3ce2</tstamps>
+    </comp>
+    <comp ref="R95">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>a195d105-9308-4bb9-8a92-5a9190f63433</tstamps>
+    </comp>
+    <comp ref="R96">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805100RFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805100RFKEAC"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>783450dd-1eec-4d89-a3db-d17f35f30497</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>MAX3109ETJ+</value>
+      <footprint>pco2-sensor-board:MAX3109ETJ+</footprint>
+      <fields>
+        <field name="MPN">MAX3109ETJ+</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="MAX3109ETJ+" description=""/>
+      <property name="MPN" value="MAX3109ETJ+"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>4e25cd74-9611-45f1-b774-7cccc7888091</tstamps>
+    </comp>
+    <comp ref="Y80">
+      <value>ABLS-3.6864MHZ-B4-T</value>
+      <footprint>pco2-sensor-board:ABLS-3.6864MHZ-B4-T</footprint>
+      <fields>
+        <field name="MPN">ABLS-3.6864MHZ-B4-T</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="ABLS-3.6864MHZ-B4-T" description=""/>
+      <property name="MPN" value="ABLS-3.6864MHZ-B4-T"/>
+      <property name="Sheetname" value="Dual UART Controller"/>
+      <property name="Sheetfile" value="dual_uart_controller.kicad_sch"/>
+      <sheetpath names="/Dual UART Controller/" tstamps="/8fcd147a-ee73-4710-a9c5-ec9822c10961/"/>
+      <tstamps>0f3e25c2-ffbd-4b21-8156-49c7f754ff8e</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 1"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 1/" tstamps="/4c83b051-812e-4a8a-a530-71422577d756/"/>
+      <tstamps>c224f7c1-d02f-4b53-a65e-11fa4dd084cc</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 1"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 1/" tstamps="/4c83b051-812e-4a8a-a530-71422577d756/"/>
+      <tstamps>664233ce-af1f-47cd-ba59-d210f53f97ac</tstamps>
+    </comp>
+    <comp ref="C104">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 1"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 1/" tstamps="/4c83b051-812e-4a8a-a530-71422577d756/"/>
+      <tstamps>edafa384-b12a-4264-ab42-fda32b9f0a70</tstamps>
+    </comp>
+    <comp ref="C105">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805R104J5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805R104J5RACTU"/>
+      <property name="Sheetname" value="Dual Serial Interface 1"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Dual Serial Interface 1/" tstamps="/4c83b051-812e-4a8a-a530-71422577d756/"/>
+      <tstamps>3c57421d-3cef-4667-802e-1c37f73d8f2f</tstamps>
+    </comp>
+    <comp ref="U80">
+      <value>MAX3224EETP+</value>
+      <footprint>pco2-sensor-board:MAX3224EETP+</footprint>
+      <fields>
+        <field name="MPN">MAX3224EETP+</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="MAX3224EETP+" description=""/>
+      <property name="MPN" value="MAX3224EETP+"/>
+      <property name="Sheetname" value="Dual Serial Interface 1"/>
+      <property name="Sheetfile" value="dual_serial_interface.kicad_sch"/>
+      <sheetpath names="/Dual Serial Interface 1/" tstamps="/4c83b051-812e-4a8a-a530-71422577d756/"/>
+      <tstamps>3ccea154-bb52-4b62-9905-912371dad7d4</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>33u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">C3216JB1E336M160AC</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C3216JB1E336M160AC"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>9d2a3344-7a5b-4e4c-84ed-be1b19be6ddb</tstamps>
+    </comp>
+    <comp ref="C84">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X7S2A105K125AE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C2012X7S2A105K125AE"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>a3ed2b4a-7266-41f6-9e54-2ff4a82bf3b4</tstamps>
+    </comp>
+    <comp ref="C85">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X7R1H475K125AE</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C2012X7R1H475K125AE"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>d22f03da-4fa7-4e57-9cd0-6a106f5f2261</tstamps>
+    </comp>
+    <comp ref="PF7">
+      <value>0ZCG0075FF2C</value>
+      <footprint>pco2-sensor-board:0ZCG0075FF2C</footprint>
+      <fields>
+        <field name="MPN">0ZCG0075FF2C</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="0ZCG0075FF2C" description=""/>
+      <property name="MPN" value="0ZCG0075FF2C"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>077b9964-5095-488d-905e-7e7f8377e496</tstamps>
+    </comp>
+    <comp ref="PF81">
+      <value>0ZCG0075FF2C</value>
+      <footprint>pco2-sensor-board:0ZCG0075FF2C</footprint>
+      <fields>
+        <field name="MPN">0ZCG0075FF2C</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="0ZCG0075FF2C" description=""/>
+      <property name="MPN" value="0ZCG0075FF2C"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>c6d7ba9c-d5e4-41d3-9d97-8249ff4cd69e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051K00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051K00FKEAC"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>6751fca8-4657-4d76-9e69-64f020ea40f8</tstamps>
+    </comp>
+    <comp ref="R80">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805470KFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805470KFKEAC"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>69165eca-3328-4c53-9704-02b51f2042e7</tstamps>
+    </comp>
+    <comp ref="R81">
+      <value>49.9k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW080549K9FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW080549K9FKEAC"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>f75a1ba6-3021-48d2-a28b-19ca72cca99d</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AQY211G2SX</value>
+      <footprint>pco2-sensor-board:AQY211G2SX</footprint>
+      <fields>
+        <field name="MPN">AQY211G2SX</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="AQY211G2SX" description=""/>
+      <property name="MPN" value="AQY211G2SX"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>5ea6f4aa-530b-420d-91a3-a331f52aae03</tstamps>
+    </comp>
+    <comp ref="U81">
+      <value>LDL212DR</value>
+      <footprint>pco2-sensor-board:LDL212DR</footprint>
+      <fields>
+        <field name="MPN">LDL212DR</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="LDL212DR" description=""/>
+      <property name="MPN" value="LDL212DR"/>
+      <property name="Sheetname" value="Peripheral Power Control"/>
+      <property name="Sheetfile" value="peripheral_power_control.kicad_sch"/>
+      <sheetpath names="/Peripheral Power Control/" tstamps="/9450e9e1-00cf-4f35-8577-b2a491ae1178/"/>
+      <tstamps>10cae444-85c6-4211-a972-7679743ef318</tstamps>
+    </comp>
+    <comp ref="3V3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>3879b5df-7e81-43f9-bf1f-309f7e4e8aa1</tstamps>
+    </comp>
+    <comp ref="BATT1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>3562febb-72b3-440e-9f08-dbfa0f6cbbcb</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X7S2A105K125AE</field>
+        <field name="Notes">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Notes" value="100V"/>
+      <property name="MPN" value="C2012X7S2A105K125AE"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>6a64bbdb-d245-4828-97d0-7385acb58149</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805X103K2RAC3316</field>
+        <field name="Notes">100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Notes" value="100V"/>
+      <property name="MPN" value="C0805X103K2RAC3316"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>d83e0c27-342d-4be9-9f5b-416fdb0f65a0</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C2012X5R1H106K125AC</field>
+        <field name="Notes">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Notes" value="50V"/>
+      <property name="MPN" value="C2012X5R1H106K125AC"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>406c251f-db9a-432c-8e2d-d6c6e534a019</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>220n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C224K1RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="C0805C224K1RACTU"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>2281f066-31bb-473c-808d-3462816d1f7d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A476ME15L</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="GRM21BR61A476ME15L"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>d01ddf17-70de-4f5c-97e0-bb748f3ca7bc</tstamps>
+    </comp>
+    <comp ref="FB10">
+      <value>MPZ1608S101ATD25</value>
+      <footprint>pco2-sensor-board:MPZ1608S101ATD25</footprint>
+      <fields>
+        <field name="MPN">MPZ1608S101ATD25</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="MPZ1608S101ATD25" description=""/>
+      <property name="MPN" value="MPZ1608S101ATD25"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>86c1256b-a012-4f2d-a036-400b76412d63</tstamps>
+    </comp>
+    <comp ref="L11">
+      <value>220u</value>
+      <footprint>pco2-sensor-board:VLCF4028T-220MR72-2</footprint>
+      <fields>
+        <field name="MPN">VLCF4028T-220MR72-2</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="VLCF4028T-220MR72-2" description=""/>
+      <property name="MPN" value="VLCF4028T-220MR72-2"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>68d4de28-c4a0-4173-9132-fdb573cc12e5</tstamps>
+    </comp>
+    <comp ref="PF1">
+      <value>NANOSMDC020F</value>
+      <footprint>pco2-sensor-board:NANOSMDC020F-2</footprint>
+      <fields>
+        <field name="MPN">NANOSMDC020F</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="NANOSMDC020F" description=""/>
+      <property name="MPN" value="NANOSMDC020F"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>d43cc53e-c1df-4840-845b-7b5c8b708365</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>226k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805226KFKEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805226KFKEA"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>b074c56e-dc56-4b62-9a89-7685f5b329b5</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051M00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051M00FKEAC"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>16221d5a-5f6e-4249-8337-0653a03b2528</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>200k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW0805200KFKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW0805200KFKEAC"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>b0df0e96-f780-4d13-8841-9a4df4f62c1b</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW08051R00FKEAC</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MPN" value="CRCW08051R00FKEAC"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>d4ca2aa3-3847-4fe5-a3a2-e28d69e19dc1</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LT3970EMS-3.3-PBF</value>
+      <footprint>pco2-sensor-board:LT3970EMS-3.3-PBF</footprint>
+      <fields>
+        <field name="MPN">LT3970EMS-3.3-PBF</field>
+      </fields>
+      <libsource lib="pco2-sensor-board" part="LT3970EMS-3.3-PBF" description=""/>
+      <property name="MPN" value="LT3970EMS-3.3-PBF"/>
+      <property name="Sheetname" value="3V3 DC Regulator"/>
+      <property name="Sheetfile" value="3v3_dc_regulator.kicad_sch"/>
+      <sheetpath names="/3V3 DC Regulator/" tstamps="/d61360f3-3093-444a-ac9d-5fad9097fb04/"/>
+      <tstamps>5066fbae-0841-4be3-9009-16e5cb2c4c5d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="0ZCG0075FF2C">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">0ZCG0075FF2C</field>
+        <field name="Footprint">pco2-sensor-board:0ZCG0075FF2C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="22u,2917">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">22u,2917</field>
+        <field name="Footprint">pco2-sensor-board:CKG57NX7S1H226M500JH</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="3220-10-0100-00">
+      <footprints>
+        <fp>CONN_3220-10-0100-00_CNC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">3220-10-0100-00</field>
+        <field name="Footprint">pco2-sensor-board:3220-10-0100-00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="430450202">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">430450202</field>
+        <field name="Footprint">pco2-sensor-board:430450202</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="430450402">
+      <footprints>
+        <fp>CON_430450402_MOL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">430450402</field>
+        <field name="Footprint">pco2-sensor-board:430450402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="430450602">
+      <footprints>
+        <fp>CON_430450602_MOL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">430450602</field>
+        <field name="Footprint">pco2-sensor-board:430450602</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="7443551331">
+      <description>SMD-Flat Wire High Current Inductor WE-HCI</description>
+      <docs>http://componentsearchengine.com/Datasheets/1/7443551331.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">7443551331</field>
+        <field name="Footprint">pco2-sensor-board:7443551331</field>
+        <field name="Datasheet">http://componentsearchengine.com/Datasheets/1/7443551331.pdf</field>
+        <field name="Description">SMD-Flat Wire High Current Inductor WE-HCI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="AB0805-T3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AB0805-T3</field>
+        <field name="Footprint">pco2-sensor-board:QFN50P300X300X90-17N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="no_connect"/>
+        <pin num="2" name="WDI" type="input"/>
+        <pin num="3" name="" type="no_connect"/>
+        <pin num="4" name="NIRQ2" type="output"/>
+        <pin num="5" name="VBAT" type="power_in"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="" type="no_connect"/>
+        <pin num="9" name="VSS_1" type="power_in"/>
+        <pin num="10" name="EXTI" type="input"/>
+        <pin num="11" name="FOUT/NIRQ" type="output"/>
+        <pin num="12" name="NTIRQ" type="output"/>
+        <pin num="13" name="VCC" type="power_in"/>
+        <pin num="14" name="AF" type="output"/>
+        <pin num="15" name="XO" type="passive"/>
+        <pin num="16" name="XI" type="passive"/>
+        <pin num="17" name="VSS_2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="ABLS-3.6864MHZ-B4-T">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">ABLS-3.6864MHZ-B4-T</field>
+        <field name="Footprint">pco2-sensor-board:ABLS-3.6864MHZ-B4-T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="ABS06-107-32.768KHZ-T">
+      <docs>http://www.abracon.com/Resonators/ABS06-107-32.768kHz-T.pdf</docs>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">ABS06-107-32.768KHZ-T</field>
+        <field name="Footprint">ABS0610732768KHZT</field>
+        <field name="Datasheet">http://www.abracon.com/Resonators/ABS06-107-32.768kHz-T.pdf</field>
+        <field name="Description">ABRACON - ABS06-107-32.768KHZ-T - CRYSTAL, 32.768KHZ, 4PF, 2 X 1.2MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="AQY211G2SX">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AQY211G2SX</field>
+        <field name="Footprint">pco2-sensor-board:AQY211G2SX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="BME280">
+      <description>Board Mount Humidity Sensors</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462906.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME280</field>
+        <field name="Footprint">BME280</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/DKDS-24/462906.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="passive"/>
+        <pin num="4" name="SCK" type="passive"/>
+        <pin num="5" name="SDO" type="passive"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND_2" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="C0805C104M5RACTU">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0805C104M5RACTU</field>
+        <field name="Footprint">CAPC2012X88N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="C0805C222K5RACTU">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0805C222K5RACTU</field>
+        <field name="Footprint">CAPC2013X88N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="DHL-5R5D224T">
+      <description>Supercapacitors / Ultracapacitors .22F 5.5V -20+80% 13.5 x 9.5mm</description>
+      <docs>https://eu.mouser.com/datasheet/2/129/dhl_e-5207.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">DHL-5R5D224T</field>
+        <field name="Footprint">pco2-sensor-board:DHL-5R5D224T</field>
+        <field name="Datasheet">https://eu.mouser.com/datasheet/2/129/dhl_e-5207.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="ISL60002BIH310Z-TK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL60002BIH310Z-TK</field>
+        <field name="Footprint">pco2-sensor-board:ISL60002BIH310Z-TK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="LDL212DR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDL212DR</field>
+        <field name="Footprint">pco2-sensor-board:LDL212DR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="ADJ/SENSE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="LGR971-KN-1">
+      <footprints>
+        <fp>LED_LGR971-KN-1_OSR</fp>
+        <fp>LED_LGR971-KN-1_OSR-M</fp>
+        <fp>LED_LGR971-KN-1_OSR-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LGR971-KN-1</field>
+        <field name="Footprint">pco2-sensor-board:LGR971-KN-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="LSR976-NR-1">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LSR976-NR-1</field>
+        <field name="Footprint">pco2-sensor-board:LGR971-KN-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="LT1672IS8-PBF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1672IS8-PBF</field>
+        <field name="Footprint">pco2-sensor-board:LT1672IS8-PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="no_connect"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="" type="power_in"/>
+        <pin num="5" name="" type="no_connect"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="" type="power_in"/>
+        <pin num="8" name="" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="LT3970EMS-3.3-PBF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT3970EMS-3.3-PBF</field>
+        <field name="Footprint">pco2-sensor-board:LT3970EMS-3.3-PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SW" type="output"/>
+        <pin num="7" name="BOOST" type="input"/>
+        <pin num="8" name="BD" type="power_in"/>
+        <pin num="9" name="PG" type="output"/>
+        <pin num="10" name="RT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="LTC3115IDHD-1-PBF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3115IDHD-1-PBF</field>
+        <field name="Footprint">pco2-sensor-board:LTC3115IDHD-1-PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RUN" type="input"/>
+        <pin num="2" name="SW2" type="output"/>
+        <pin num="3" name="PVOUT" type="power_out"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VC" type="output"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="RT" type="passive"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="VIN" type="input"/>
+        <pin num="11" name="PVCC" type="power_out"/>
+        <pin num="12" name="BST2" type="output"/>
+        <pin num="13" name="BST1" type="output"/>
+        <pin num="14" name="PVIN" type="input"/>
+        <pin num="15" name="SW1" type="output"/>
+        <pin num="16" name="PWM/SYNC" type="input"/>
+        <pin num="17" name="EPAD/PGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="MAX3109ETJ+">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX3109ETJ+</field>
+        <field name="Footprint">pco2-sensor-board:MAX3109ETJ+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RST}" type="input"/>
+        <pin num="2" name="MISO" type="output"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="GPIO7" type="bidirectional"/>
+        <pin num="5" name="~{CS}/A0" type="input"/>
+        <pin num="6" name="MOSI/A1" type="input"/>
+        <pin num="7" name="~{IRQ}" type="open_collector"/>
+        <pin num="8" name="VL" type="power_in"/>
+        <pin num="9" name="SPI/~{I2C}" type="input"/>
+        <pin num="10" name="DGND" type="power_in"/>
+        <pin num="11" name="GPIO0" type="bidirectional"/>
+        <pin num="12" name="GPIO4" type="bidirectional"/>
+        <pin num="13" name="GPIO1" type="bidirectional"/>
+        <pin num="14" name="GPIO5" type="bidirectional"/>
+        <pin num="15" name="~{CTS0}" type="input"/>
+        <pin num="16" name="~{CTS1}" type="input"/>
+        <pin num="17" name="TX1" type="output"/>
+        <pin num="18" name="TX0" type="output"/>
+        <pin num="19" name="RX0" type="input"/>
+        <pin num="20" name="RX1" type="input"/>
+        <pin num="21" name="~{RTS0}" type="output"/>
+        <pin num="22" name="~{RTS1}" type="output"/>
+        <pin num="23" name="GPIO2" type="bidirectional"/>
+        <pin num="24" name="GPIO3" type="bidirectional"/>
+        <pin num="25" name="VEXT" type="power_in"/>
+        <pin num="26" name="XIN" type="input"/>
+        <pin num="27" name="XOUT" type="output"/>
+        <pin num="28" name="GPIO6" type="bidirectional"/>
+        <pin num="29" name="AGND" type="power_in"/>
+        <pin num="30" name="LDOEN" type="input"/>
+        <pin num="31" name="V18" type="power_in"/>
+        <pin num="32" name="VCC" type="power_in"/>
+        <pin num="33" name="EP/AGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="MAX3224EETP+">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX3224EETP+</field>
+        <field name="Footprint">pco2-sensor-board:MAX3224EETP+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1+" type="power_out"/>
+        <pin num="2" name="C1-" type="power_out"/>
+        <pin num="3" name="C2+" type="power_out"/>
+        <pin num="4" name="C2-" type="power_out"/>
+        <pin num="5" name="V-" type="power_out"/>
+        <pin num="6" name="T2OUT" type="output"/>
+        <pin num="7" name="R2IN" type="input"/>
+        <pin num="8" name="R2OUT" type="output"/>
+        <pin num="9" name="~{INVALID}" type="output"/>
+        <pin num="10" name="T2IN" type="input"/>
+        <pin num="11" name="T1IN" type="input"/>
+        <pin num="12" name="FORCEON" type="input"/>
+        <pin num="13" name="R1OUT" type="output"/>
+        <pin num="14" name="R1IN" type="input"/>
+        <pin num="15" name="T1OUT" type="output"/>
+        <pin num="16" name="GND" type="power_in"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="~{FORCEOFF}" type="input"/>
+        <pin num="19" name="READY" type="output"/>
+        <pin num="20" name="V+" type="power_out"/>
+        <pin num="21" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="MEM2012F10R0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MEM2012F10R0</field>
+        <field name="Footprint">pco2-sensor-board:MEM2012F10R0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="power_in"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="MPZ1608S101ATD25">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">MPZ1608S101ATD25</field>
+        <field name="Footprint">pco2-sensor-board:MPZ1608S101ATD25</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="MSP430FR5994IPNR">
+      <fields>
+        <field name="Reference">U5</field>
+        <field name="Value">MSP430FR5994IPNR</field>
+        <field name="Footprint">pco2-sensor-board:MSP430FR5994IPNR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1.0_TA0.1_DMAE0_RTCCLK_A0_C0_VREF-_VEREF-" type="bidirectional"/>
+        <pin num="2" name="P1.1_TA0.2_TA1CLK_COUT_A1_C1_VREF+_VEREF+" type="bidirectional"/>
+        <pin num="3" name="P1.2_TA1.1_TA0CLK_COUT_A2_C2" type="bidirectional"/>
+        <pin num="4" name="P3.0_A12_C12" type="bidirectional"/>
+        <pin num="5" name="P3.1_A13_C13" type="bidirectional"/>
+        <pin num="6" name="P3.2_A14_C14" type="bidirectional"/>
+        <pin num="7" name="P3.3_A15_C15" type="bidirectional"/>
+        <pin num="8" name="P6.0_UCA3TXD_UCA3SIMO" type="bidirectional"/>
+        <pin num="9" name="P6.1_UCA3RXD_UCA3SOMI" type="bidirectional"/>
+        <pin num="10" name="P6.2_UCA3CLK" type="bidirectional"/>
+        <pin num="11" name="P6.3_UCA3STE" type="bidirectional"/>
+        <pin num="12" name="P4.7" type="bidirectional"/>
+        <pin num="13" name="P7.0_UCB2SIMO_UCB2SDA" type="bidirectional"/>
+        <pin num="14" name="P7.1_UCB2SOMI_UCB2SCL" type="bidirectional"/>
+        <pin num="15" name="P8.0" type="bidirectional"/>
+        <pin num="16" name="P1.3_TA1.2_UCB0STE_A3_C3" type="bidirectional"/>
+        <pin num="17" name="P1.4_TB0.1_UCA0STE_A4_C4" type="bidirectional"/>
+        <pin num="18" name="P1.5_TB0.2_UCA0CLK_A5_C5" type="bidirectional"/>
+        <pin num="19" name="DVSS2" type="power_in"/>
+        <pin num="20" name="DVCC2" type="power_in"/>
+        <pin num="21" name="PJ.0_TDO_TB0OUTH_SMCLK_SRSCG1_C6" type="bidirectional"/>
+        <pin num="22" name="PJ.1_TDI_TCLK_MCLK_SRSCG0_C7" type="bidirectional"/>
+        <pin num="23" name="PJ.2_TMS_ACLK_SROSCOFF_C8" type="bidirectional"/>
+        <pin num="24" name="PJ.3_TCK_SRCPUOFF_C9" type="bidirectional"/>
+        <pin num="25" name="P7.2_UCB2CLK" type="bidirectional"/>
+        <pin num="26" name="P7.3_UCB2STE_TA4.1" type="bidirectional"/>
+        <pin num="27" name="P7.4__TA4.0_A16" type="bidirectional"/>
+        <pin num="28" name="P7.5_A17" type="bidirectional"/>
+        <pin num="29" name="P7.6_A18" type="bidirectional"/>
+        <pin num="30" name="P7.7_A19" type="bidirectional"/>
+        <pin num="31" name="P4.0_A8" type="bidirectional"/>
+        <pin num="32" name="P4.1_A9" type="bidirectional"/>
+        <pin num="33" name="P4.2_A10" type="bidirectional"/>
+        <pin num="34" name="P4.3_A11" type="bidirectional"/>
+        <pin num="35" name="P2.5_TB0.0_UCA1TXD_UCA1SIMO" type="bidirectional"/>
+        <pin num="36" name="P2.6_TB0.1_UCA1RXD_UCA1SOMI" type="bidirectional"/>
+        <pin num="37" name="TEST_SBWTCK" type="input"/>
+        <pin num="38" name="RST_NMI_SBWTDIO_N" type="bidirectional"/>
+        <pin num="39" name="DVSS3" type="power_in"/>
+        <pin num="40" name="DVCC3" type="power_in"/>
+        <pin num="41" name="P2.0_TB0.6_UCA0TXD_UCA0SIMO_TB0CLK_ACLK" type="bidirectional"/>
+        <pin num="42" name="P2.1_TB0.0_UCA0RXD_UCA0SOMI" type="bidirectional"/>
+        <pin num="43" name="P2.2_TB0.2_UCB0CLK" type="bidirectional"/>
+        <pin num="44" name="P8.1" type="bidirectional"/>
+        <pin num="45" name="P8.2" type="bidirectional"/>
+        <pin num="46" name="P8.3" type="bidirectional"/>
+        <pin num="47" name="P3.4_TB0.3_SMCLK" type="bidirectional"/>
+        <pin num="48" name="P3.5_TB0.4_COUT" type="bidirectional"/>
+        <pin num="49" name="P3.6_TB0.5" type="bidirectional"/>
+        <pin num="50" name="P3.7_TB0.6" type="bidirectional"/>
+        <pin num="51" name="P1.6_TB0.3_UCB0SIMO_UCB0SDA_TA0.0" type="bidirectional"/>
+        <pin num="52" name="P1.7_TB0.4_UCB0SOMI_UCB0SCL_TA1.0" type="bidirectional"/>
+        <pin num="53" name="P5.0_UCB1SIMO_UCB1SDA" type="bidirectional"/>
+        <pin num="54" name="P5.1_UCB1SOMI_UCB1SCL" type="bidirectional"/>
+        <pin num="55" name="P5.2_UCB1CLK_TA4CLK" type="bidirectional"/>
+        <pin num="56" name="P5.3_UCB1STE" type="bidirectional"/>
+        <pin num="57" name="P4.4_TB0.5" type="bidirectional"/>
+        <pin num="58" name="P4.5" type="bidirectional"/>
+        <pin num="59" name="P4.6" type="bidirectional"/>
+        <pin num="60" name="DVSS1" type="power_in"/>
+        <pin num="61" name="DVCC1" type="power_in"/>
+        <pin num="62" name="P2.7" type="bidirectional"/>
+        <pin num="63" name="P2.3_TA0.0_UCA1STE_A6_C10" type="bidirectional"/>
+        <pin num="64" name="P2.4_TA1.0_UCA1CLK_A7_C11" type="bidirectional"/>
+        <pin num="65" name="P5.4_UCA2TXD_UCA2SIMO_TB0OUTH" type="bidirectional"/>
+        <pin num="66" name="P5.5_UCA2RXD_UCA2SOMI_ACLK" type="bidirectional"/>
+        <pin num="67" name="P5.6_UCA2CLK_TA4.0_SMCLK" type="bidirectional"/>
+        <pin num="68" name="P5.7_UCA2STE_TA4.1_MCLK" type="bidirectional"/>
+        <pin num="69" name="P6.4_UCB3SIMO_UCB3SDA" type="bidirectional"/>
+        <pin num="70" name="P6.5_UCB3SOMI_UCB3SCL" type="bidirectional"/>
+        <pin num="71" name="P6.6_UCB3CLK" type="bidirectional"/>
+        <pin num="72" name="P6.7_UCB3STE" type="bidirectional"/>
+        <pin num="73" name="AVSS3" type="power_in"/>
+        <pin num="74" name="PJ.6_HFXIN" type="input"/>
+        <pin num="75" name="PJ.7_HFXOUT" type="bidirectional"/>
+        <pin num="76" name="AVSS2" type="power_in"/>
+        <pin num="77" name="PJ.4_LFXIN" type="input"/>
+        <pin num="78" name="PJ.5_LFXOUT" type="bidirectional"/>
+        <pin num="79" name="AVSS1" type="power_in"/>
+        <pin num="80" name="AVCC1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="NANOSMDC020F">
+      <footprints>
+        <fp>FUS_NANO_TYCO_TYC</fp>
+        <fp>FUS_NANO_TYCO_TYC-M</fp>
+        <fp>FUS_NANO_TYCO_TYC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">NANOSMDC020F</field>
+        <field name="Footprint">pco2-sensor-board:NANOSMDC020F-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="SG-210STF 7.3728ML">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SG-210STF 7.3728ML</field>
+        <field name="Footprint">pco2-sensor-board:SG-210STF 7.3728ML</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ST" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="SI1330EDL-T1-GE3">
+      <description>N-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SI1330EDL-T1-GE3</field>
+        <field name="Footprint">pco2-sensor-board:SI1330EDL-T1-GE3</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="SN74LVC1G240DBVR">
+      <footprints>
+        <fp>DBV5</fp>
+        <fp>DBV5-M</fp>
+        <fp>DBV5-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G240DBVR</field>
+        <field name="Footprint">pco2-sensor-board:SN74LVC1G240DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{OE}" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="TPL5010DDCR">
+      <footprints>
+        <fp>DDC0006A_N</fp>
+        <fp>DDC0006A_M</fp>
+        <fp>DDC0006A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPL5010DDCR</field>
+        <field name="Footprint">pco2-sensor-board:TPL5010DDCR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DELAY_M_RST" type="input"/>
+        <pin num="4" name="DONE" type="input"/>
+        <pin num="5" name="WAKE" type="output"/>
+        <pin num="6" name="~{RST}" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="pco2-sensor-board" part="VLCF4028T-220MR72-2">
+      <footprints>
+        <fp>IND_4028_TDK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">VLCF4028T-220MR72-2</field>
+        <field name="Footprint">pco2-sensor-board:VLCF4028T-220MR72-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="pco2-sensor-board">
+      <uri>C:\Users\kurina\Documents\GitHub\EDD-pco2-controller-kicad\pco2-sensor-board/pco2-sensor-board.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="3V3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="C80" pin="1" pintype="passive"/>
+      <node ref="C81" pin="1" pintype="passive"/>
+      <node ref="C82" pin="1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="L11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="R113" pin="1" pintype="passive"/>
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U1" pin="8" pinfunction="BD" pintype="power_in"/>
+      <node ref="U11" pin="17" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U11" pin="18" pinfunction="~{FORCEOFF}" pintype="input"/>
+      <node ref="U2" pin="7" pintype="power_in"/>
+      <node ref="U21" pin="2" pinfunction="CSB" pintype="input"/>
+      <node ref="U21" pin="6" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U21" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U30" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="20" pinfunction="DVCC2" pintype="power_in"/>
+      <node ref="U5" pin="40" pinfunction="DVCC3" pintype="power_in"/>
+      <node ref="U5" pin="61" pinfunction="DVCC1" pintype="power_in"/>
+      <node ref="U5" pin="80" pinfunction="AVCC1" pintype="power_in"/>
+      <node ref="U6" pin="13" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="25" pinfunction="VEXT" pintype="power_in"/>
+      <node ref="U8" pin="30" pinfunction="LDOEN" pintype="input"/>
+      <node ref="U8" pin="32" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VL" pintype="power_in"/>
+      <node ref="U80" pin="17" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U80" pin="18" pinfunction="~{FORCEOFF}" pintype="input"/>
+    </net>
+    <net code="2" name="+15V">
+      <node ref="15V1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C84" pin="1" pintype="passive"/>
+      <node ref="C94" pin="2" pintype="passive"/>
+      <node ref="C95" pin="2" pintype="passive"/>
+      <node ref="PF7" pin="2" pintype="passive"/>
+      <node ref="R92" pin="1" pintype="passive"/>
+      <node ref="U81" pin="4" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="PVOUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+BATT">
+      <node ref="BATT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PF1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/15V_ENABLE">
+      <node ref="R114" pin="2" pintype="passive"/>
+      <node ref="U5" pin="68" pinfunction="P5.7_UCA2STE_TA4.1_MCLK" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="5" name="/15V_PWM">
+      <node ref="R115" pin="1" pintype="passive"/>
+      <node ref="U5" pin="56" pinfunction="P5.3_UCB1STE" pintype="bidirectional"/>
+      <node ref="U9" pin="16" pinfunction="PWM/SYNC" pintype="input"/>
+    </net>
+    <net code="6" name="/COMMAND_UART.RX">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="36" pinfunction="P2.6_TB0.1_UCA1RXD_UCA1SOMI" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/COMMAND_UART.TX">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U5" pin="35" pinfunction="P2.5_TB0.0_UCA1TXD_UCA1SIMO" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Dual Serial Interface 1/RX1_IN">
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U80" pin="14" pinfunction="R1IN" pintype="input"/>
+    </net>
+    <net code="10" name="/Dual Serial Interface 1/RX2_IN">
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U80" pin="7" pinfunction="R2IN" pintype="input"/>
+    </net>
+    <net code="11" name="/Dual Serial Interface 1/TX1_OUT">
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U80" pin="15" pinfunction="T1OUT" pintype="output"/>
+    </net>
+    <net code="12" name="/Dual Serial Interface 1/TX2_OUT">
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U80" pin="6" pinfunction="T2OUT" pintype="output"/>
+    </net>
+    <net code="13" name="/Dual Serial Interface 2/RX1_IN">
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="14" pinfunction="R1IN" pintype="input"/>
+    </net>
+    <net code="14" name="/Dual Serial Interface 2/RX1_OUT">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U11" pin="13" pinfunction="R1OUT" pintype="output"/>
+    </net>
+    <net code="15" name="/Dual Serial Interface 2/RX2_IN">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="R2IN" pintype="input"/>
+    </net>
+    <net code="16" name="/Dual Serial Interface 2/RX2_OUT">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="R2OUT" pintype="output"/>
+    </net>
+    <net code="17" name="/Dual Serial Interface 2/TX1_IN">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U11" pin="11" pinfunction="T1IN" pintype="input"/>
+    </net>
+    <net code="18" name="/Dual Serial Interface 2/TX1_OUT">
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U11" pin="15" pinfunction="T1OUT" pintype="output"/>
+    </net>
+    <net code="19" name="/Dual Serial Interface 2/TX2_IN">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U11" pin="10" pinfunction="T2IN" pintype="input"/>
+    </net>
+    <net code="20" name="/Dual Serial Interface 2/TX2_OUT">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="T2OUT" pintype="output"/>
+    </net>
+    <net code="21" name="/FLOW_CONTROL_ENABLE">
+      <node ref="U5" pin="58" pinfunction="P4.5" pintype="bidirectional"/>
+      <node ref="U81" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="22" name="/FLOW_RX">
+      <node ref="R86" pin="1" pintype="passive"/>
+      <node ref="U80" pin="8" pinfunction="R2OUT" pintype="output"/>
+    </net>
+    <net code="23" name="/FLOW_TX">
+      <node ref="R85" pin="2" pintype="passive"/>
+      <node ref="U80" pin="10" pinfunction="T2IN" pintype="input"/>
+    </net>
+    <net code="24" name="/GREEN_LED">
+      <node ref="GRN_LED1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="45" pinfunction="P8.2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/LICOR_UART.RX">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="66" pinfunction="P5.5_UCA2RXD_UCA2SOMI_ACLK" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/LICOR_UART.TX">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U5" pin="65" pinfunction="P5.4_UCA2TXD_UCA2SIMO_TB0OUTH" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/O2.SENSOR">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="P4.0_A8" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/O2.VREF+">
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="U20" pin="2" pinfunction="VOUT" pintype="output"/>
+      <node ref="U5" pin="2" pinfunction="P1.1_TA0.2_TA1CLK_COUT_A1_C1_VREF+_VEREF+" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/O2.VREF_EN">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="U20" pin="1" pinfunction="VIN" pintype="input"/>
+      <node ref="U5" pin="32" pinfunction="P4.1_A9" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/Oxygen Sensor/SENSOR+">
+      <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/Peripheral Power Control/FLOW_CONTROL_POWER_OUT">
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="PF81" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="/Peripheral Power Control/LICOR_POWER_OUT">
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="34" name="/RED_LED">
+      <node ref="RED_LED1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="46" pinfunction="P8.3" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/RH.SCL">
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R97" pin="1" pintype="passive"/>
+      <node ref="U5" pin="54" pinfunction="P5.1_UCB1SOMI_UCB1SCL" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/RH.SDA">
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R98" pin="2" pintype="passive"/>
+      <node ref="U5" pin="53" pinfunction="P5.0_UCB1SIMO_UCB1SDA" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/RTC.EXTI">
+      <node ref="R113" pin="2" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="P1.3_TA1.2_UCB0STE_A3_C3" pintype="bidirectional"/>
+      <node ref="U6" pin="10" pinfunction="EXTI" pintype="input"/>
+    </net>
+    <net code="38" name="/RTC.IRQ1">
+      <node ref="R112" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="P1.4_TB0.1_UCA0STE_A4_C4" pintype="bidirectional"/>
+      <node ref="U6" pin="11" pinfunction="FOUT/NIRQ" pintype="output"/>
+    </net>
+    <net code="39" name="/RTC.SCL">
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="U5" pin="52" pinfunction="P1.7_TB0.4_UCB0SOMI_UCB0SCL_TA1.0" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/RTC.SDA">
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="U5" pin="51" pinfunction="P1.6_TB0.3_UCB0SIMO_UCB0SDA_TA0.0" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/RTC.nIRQ2">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="P1.5_TB0.2_UCA0CLK_A5_C5" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/RTC.nTIRQ">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="P1.2_TA1.1_TA0CLK_COUT_A2_C2" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/Real-Time Clock/WDI">
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="WDI" pintype="input"/>
+    </net>
+    <net code="45" name="/SBWTCK">
+      <node ref="JTAG_MINI1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U5" pin="37" pinfunction="TEST_SBWTCK" pintype="input"/>
+    </net>
+    <net code="46" name="/SPARE_RX">
+      <node ref="R88" pin="1" pintype="passive"/>
+      <node ref="U80" pin="13" pinfunction="R1OUT" pintype="output"/>
+    </net>
+    <net code="47" name="/SPARE_TX">
+      <node ref="R87" pin="2" pintype="passive"/>
+      <node ref="U80" pin="11" pinfunction="T1IN" pintype="input"/>
+    </net>
+    <net code="48" name="/TCK">
+      <node ref="R99" pin="1" pintype="passive"/>
+      <node ref="U5" pin="24" pinfunction="PJ.3_TCK_SRCPUOFF_C9" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/TDI">
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="U5" pin="22" pinfunction="PJ.1_TDI_TCLK_MCLK_SRSCG0_C7" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/TDO">
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="PJ.0_TDO_TB0OUTH_SMCLK_SRSCG1_C6" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/TMS">
+      <node ref="R100" pin="1" pintype="passive"/>
+      <node ref="U5" pin="23" pinfunction="PJ.2_TMS_ACLK_SROSCOFF_C8" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="/UART_MISO">
+      <node ref="R84" pin="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="P7.1_UCB2SOMI_UCB2SCL" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/UART_MOSI">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="P7.0_UCB2SIMO_UCB2SDA" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/UART_SCK">
+      <node ref="R96" pin="1" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="P7.2_UCB2CLK" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/WD.nCS_DOG">
+      <node ref="U3" pin="4" pinfunction="DONE" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="P4.7" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/WD.nRESET">
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="JTAG_MINI1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U5" pin="38" pinfunction="RST_NMI_SBWTDIO_N" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/Watchdog Timer/ENABLE">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U30" pin="1" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="58" name="/nLICOR_ENABLE">
+      <node ref="U5" pin="67" pinfunction="P5.6_UCA2CLK_TA4.0_SMCLK" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="59" name="/nUART_CS">
+      <node ref="R95" pin="1" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="P7.3_UCB2STE_TA4.1" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="/nUART_I2C">
+      <node ref="U5" pin="15" pinfunction="P8.0" pintype="bidirectional"/>
+      <node ref="U8" pin="9" pinfunction="SPI/~{I2C}" pintype="input"/>
+    </net>
+    <net code="61" name="/nUART_IRQ">
+      <node ref="U5" pin="27" pinfunction="P7.4__TA4.0_A16" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="~{IRQ}" pintype="open_collector"/>
+    </net>
+    <net code="62" name="/nUART_RESET">
+      <node ref="U5" pin="28" pinfunction="P7.5_A17" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="63" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C100" pin="1" pintype="passive"/>
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="C104" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C80" pin="2" pintype="passive"/>
+      <node ref="C81" pin="2" pintype="passive"/>
+      <node ref="C82" pin="2" pintype="passive"/>
+      <node ref="C83" pin="1" pintype="passive"/>
+      <node ref="C84" pin="2" pintype="passive"/>
+      <node ref="C85" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="C90" pin="2" pintype="passive"/>
+      <node ref="C91" pin="2" pintype="passive"/>
+      <node ref="C95" pin="1" pintype="passive"/>
+      <node ref="C99" pin="1" pintype="passive"/>
+      <node ref="FL50" pin="2" pintype="power_in"/>
+      <node ref="FL50" pin="4" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="JTAG_MINI1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="JTAG_MINI1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="JTAG_MINI1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R115" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="R81" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R91" pin="2" pintype="passive"/>
+      <node ref="R94" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="12" pinfunction="FORCEON" pintype="input"/>
+      <node ref="U11" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="21" pinfunction="EPAD" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="power_in"/>
+      <node ref="U20" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U21" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U21" pin="7" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U30" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="P1.0_TA0.1_DMAE0_RTCCLK_A0_C0_VREF-_VEREF-" pintype="bidirectional"/>
+      <node ref="U5" pin="19" pinfunction="DVSS2" pintype="power_in"/>
+      <node ref="U5" pin="39" pinfunction="DVSS3" pintype="power_in"/>
+      <node ref="U5" pin="60" pinfunction="DVSS1" pintype="power_in"/>
+      <node ref="U5" pin="73" pinfunction="AVSS3" pintype="power_in"/>
+      <node ref="U5" pin="76" pinfunction="AVSS2" pintype="power_in"/>
+      <node ref="U5" pin="79" pinfunction="AVSS1" pintype="power_in"/>
+      <node ref="U50" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="17" pinfunction="VSS_2" pintype="power_in"/>
+      <node ref="U6" pin="9" pinfunction="VSS_1" pintype="power_in"/>
+      <node ref="U8" pin="10" pinfunction="DGND" pintype="power_in"/>
+      <node ref="U8" pin="29" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U8" pin="33" pinfunction="EP/AGND" pintype="power_in"/>
+      <node ref="U80" pin="12" pinfunction="FORCEON" pintype="input"/>
+      <node ref="U80" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="U80" pin="21" pinfunction="EPAD" pintype="passive"/>
+      <node ref="U81" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U81" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U81" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U81" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="17" pinfunction="EPAD/PGND" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="64" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="PF7" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="FB10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PF1" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="R94" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(C93-Pad1)">
+      <node ref="C93" pin="1" pintype="passive"/>
+      <node ref="R90" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(C94-Pad1)">
+      <node ref="C94" pin="1" pintype="passive"/>
+      <node ref="R93" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(GRN_LED1-Pad1)">
+      <node ref="GRN_LED1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(JTAG_MINI1-Pad1)">
+      <node ref="JTAG_MINI1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(JTAG_MINI1-Pad2)">
+      <node ref="JTAG_MINI1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R100" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(JTAG_MINI1-Pad4)">
+      <node ref="JTAG_MINI1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R99" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(JTAG_MINI1-Pad6)">
+      <node ref="JTAG_MINI1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(JTAG_MINI1-Pad8)">
+      <node ref="JTAG_MINI1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U30" pin="4" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="79" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R51-Pad2)">
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="RED_LED1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R106-Pad2)">
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R98" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(U1-BOOST)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="BOOST" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(U1-EN)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(U1-RT)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="RT" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(U1-SW)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="L11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="86" name="Net-(U1-VIN)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="FB10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(U2-+)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(U2--)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(U3-DELAY_M_RST)">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="DELAY_M_RST" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(U3-~{RST})">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="~{RST}" pintype="open_collector"/>
+      <node ref="U30" pin="2" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U5-P6.7_UCB3STE)">
+      <node ref="FL50" pin="1" pintype="passive"/>
+      <node ref="U5" pin="72" pinfunction="P6.7_UCB3STE" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="Net-(U5-PJ.6_HFXIN)">
+      <node ref="U5" pin="74" pinfunction="PJ.6_HFXIN" pintype="input"/>
+      <node ref="U50" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="93" name="Net-(U6-AF)">
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="AF" pintype="output"/>
+    </net>
+    <net code="94" name="Net-(U6-NIRQ2)">
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="NIRQ2" pintype="output"/>
+    </net>
+    <net code="95" name="Net-(U6-NTIRQ)">
+      <node ref="R111" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="NTIRQ" pintype="output"/>
+    </net>
+    <net code="96" name="Net-(U6-SCL)">
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="97" name="Net-(U6-SDA)">
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="R108" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="SDA" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(U6-VBAT)">
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="99" name="Net-(U6-XI)">
+      <node ref="U6" pin="16" pinfunction="XI" pintype="passive"/>
+      <node ref="Y60" pin="1" pintype="passive"/>
+    </net>
+    <net code="100" name="Net-(U6-XO)">
+      <node ref="U6" pin="15" pinfunction="XO" pintype="passive"/>
+      <node ref="Y60" pin="2" pintype="passive"/>
+    </net>
+    <net code="101" name="Net-(U8-MISO)">
+      <node ref="R84" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="102" name="Net-(U8-MOSI{slash}A1)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="MOSI/A1" pintype="input"/>
+    </net>
+    <net code="103" name="Net-(U8-RX0)">
+      <node ref="R86" pin="2" pintype="passive"/>
+      <node ref="U8" pin="19" pinfunction="RX0" pintype="input"/>
+    </net>
+    <net code="104" name="Net-(U8-RX1)">
+      <node ref="R88" pin="2" pintype="passive"/>
+      <node ref="U8" pin="20" pinfunction="RX1" pintype="input"/>
+    </net>
+    <net code="105" name="Net-(U8-SCLK)">
+      <node ref="R96" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="106" name="Net-(U8-TX0)">
+      <node ref="R85" pin="1" pintype="passive"/>
+      <node ref="U8" pin="18" pinfunction="TX0" pintype="output"/>
+    </net>
+    <net code="107" name="Net-(U8-TX1)">
+      <node ref="R87" pin="1" pintype="passive"/>
+      <node ref="U8" pin="17" pinfunction="TX1" pintype="output"/>
+    </net>
+    <net code="108" name="Net-(U8-V18)">
+      <node ref="C83" pin="2" pintype="passive"/>
+      <node ref="U8" pin="31" pinfunction="V18-OUT" pintype="power_out"/>
+    </net>
+    <net code="109" name="Net-(U8-XIN)">
+      <node ref="U8" pin="26" pinfunction="XIN" pintype="input"/>
+      <node ref="Y80" pin="1" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(U8-XOUT)">
+      <node ref="U8" pin="27" pinfunction="XOUT" pintype="output"/>
+      <node ref="Y80" pin="2" pintype="passive"/>
+    </net>
+    <net code="111" name="Net-(U8-~{CS}{slash}A0)">
+      <node ref="R95" pin="2" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="~{CS}/A0" pintype="input"/>
+    </net>
+    <net code="112" name="Net-(U9-BST1)">
+      <node ref="C96" pin="2" pintype="passive"/>
+      <node ref="U9" pin="13" pinfunction="BST1" pintype="output"/>
+    </net>
+    <net code="113" name="Net-(U9-BST2)">
+      <node ref="C97" pin="2" pintype="passive"/>
+      <node ref="U9" pin="12" pinfunction="BST2" pintype="output"/>
+    </net>
+    <net code="114" name="Net-(U9-FB)">
+      <node ref="C92" pin="2" pintype="passive"/>
+      <node ref="C93" pin="2" pintype="passive"/>
+      <node ref="R91" pin="1" pintype="passive"/>
+      <node ref="R92" pin="2" pintype="passive"/>
+      <node ref="R93" pin="1" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="115" name="Net-(U9-PVCC)">
+      <node ref="C91" pin="1" pintype="passive"/>
+      <node ref="U9" pin="11" pinfunction="PVCC" pintype="power_out"/>
+      <node ref="U9" pin="9" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="116" name="Net-(U9-PVIN)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="C90" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U9" pin="10" pinfunction="VIN" pintype="input"/>
+      <node ref="U9" pin="14" pinfunction="PVIN" pintype="input"/>
+    </net>
+    <net code="117" name="Net-(U9-RT)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="RT" pintype="passive"/>
+    </net>
+    <net code="118" name="Net-(U9-SW1)">
+      <node ref="C96" pin="1" pintype="passive"/>
+      <node ref="L9" pin="1" pintype="passive"/>
+      <node ref="U9" pin="15" pinfunction="SW1" pintype="output"/>
+    </net>
+    <net code="119" name="Net-(U9-SW2)">
+      <node ref="C97" pin="1" pintype="passive"/>
+      <node ref="L9" pin="2" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="SW2" pintype="output"/>
+    </net>
+    <net code="120" name="Net-(U9-VC)">
+      <node ref="C92" pin="1" pintype="passive"/>
+      <node ref="R90" pin="1" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="VC" pintype="output"/>
+    </net>
+    <net code="121" name="Net-(U11-C1+)">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="U11" pin="1" pinfunction="C1+" pintype="power_out"/>
+    </net>
+    <net code="122" name="Net-(U11-C1-)">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="C1-" pintype="power_out"/>
+    </net>
+    <net code="123" name="Net-(U11-C2+)">
+      <node ref="C98" pin="2" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="C2+" pintype="power_out"/>
+    </net>
+    <net code="124" name="Net-(U11-C2-)">
+      <node ref="C98" pin="1" pintype="passive"/>
+      <node ref="U11" pin="4" pinfunction="C2-" pintype="power_out"/>
+    </net>
+    <net code="125" name="Net-(U11-V+)">
+      <node ref="C100" pin="2" pintype="passive"/>
+      <node ref="U11" pin="20" pinfunction="V+" pintype="power_out"/>
+    </net>
+    <net code="126" name="Net-(U11-V-)">
+      <node ref="C99" pin="2" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="V-" pintype="power_out"/>
+    </net>
+    <net code="127" name="Net-(U21-SCK)">
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="R97" pin="2" pintype="passive"/>
+      <node ref="U21" pin="4" pinfunction="SCK" pintype="passive"/>
+    </net>
+    <net code="128" name="Net-(U21-SDI)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U21" pin="3" pinfunction="SDI" pintype="passive"/>
+    </net>
+    <net code="129" name="Net-(U50-VCC)">
+      <node ref="FL50" pin="3" pintype="passive"/>
+      <node ref="U50" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="130" name="Net-(U80-C1+)">
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="U80" pin="1" pinfunction="C1+" pintype="power_out"/>
+    </net>
+    <net code="131" name="Net-(U80-C1-)">
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="U80" pin="2" pinfunction="C1-" pintype="power_out"/>
+    </net>
+    <net code="132" name="Net-(U80-C2+)">
+      <node ref="C105" pin="2" pintype="passive"/>
+      <node ref="U80" pin="3" pinfunction="C2+" pintype="power_out"/>
+    </net>
+    <net code="133" name="Net-(U80-C2-)">
+      <node ref="C105" pin="1" pintype="passive"/>
+      <node ref="U80" pin="4" pinfunction="C2-" pintype="power_out"/>
+    </net>
+    <net code="134" name="Net-(U80-V+)">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="U80" pin="20" pinfunction="V+" pintype="power_out"/>
+    </net>
+    <net code="135" name="Net-(U80-V-)">
+      <node ref="C104" pin="2" pintype="passive"/>
+      <node ref="U80" pin="5" pinfunction="V-" pintype="power_out"/>
+    </net>
+    <net code="136" name="Net-(U81-ADJ{slash}SENSE)">
+      <node ref="R80" pin="2" pintype="passive"/>
+      <node ref="R81" pin="1" pintype="passive"/>
+      <node ref="U81" pin="8" pinfunction="ADJ/SENSE" pintype="input"/>
+    </net>
+    <net code="137" name="Net-(U81-VOUT)">
+      <node ref="C85" pin="1" pintype="passive"/>
+      <node ref="PF81" pin="1" pintype="passive"/>
+      <node ref="R80" pin="1" pintype="passive"/>
+      <node ref="U81" pin="1" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="138" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U1-PG-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PG" pintype="output+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U2-Pad1)">
+      <node ref="U2" pin="1" pintype="no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U2-Pad5)">
+      <node ref="U2" pin="5" pintype="no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pintype="no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U3-WAKE-Pad5)">
+      <node ref="U3" pin="5" pinfunction="WAKE" pintype="output+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U5-P2.0_TB0.6_UCA0TXD_UCA0SIMO_TB0CLK_ACLK-Pad41)">
+      <node ref="U5" pin="41" pinfunction="P2.0_TB0.6_UCA0TXD_UCA0SIMO_TB0CLK_ACLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U5-P2.1_TB0.0_UCA0RXD_UCA0SOMI-Pad42)">
+      <node ref="U5" pin="42" pinfunction="P2.1_TB0.0_UCA0RXD_UCA0SOMI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U5-P2.2_TB0.2_UCB0CLK-Pad43)">
+      <node ref="U5" pin="43" pinfunction="P2.2_TB0.2_UCB0CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U5-P2.3_TA0.0_UCA1STE_A6_C10-Pad63)">
+      <node ref="U5" pin="63" pinfunction="P2.3_TA0.0_UCA1STE_A6_C10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U5-P2.4_TA1.0_UCA1CLK_A7_C11-Pad64)">
+      <node ref="U5" pin="64" pinfunction="P2.4_TA1.0_UCA1CLK_A7_C11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U5-P2.7-Pad62)">
+      <node ref="U5" pin="62" pinfunction="P2.7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U5-P3.0_A12_C12-Pad4)">
+      <node ref="U5" pin="4" pinfunction="P3.0_A12_C12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U5-P3.1_A13_C13-Pad5)">
+      <node ref="U5" pin="5" pinfunction="P3.1_A13_C13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U5-P3.2_A14_C14-Pad6)">
+      <node ref="U5" pin="6" pinfunction="P3.2_A14_C14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U5-P3.3_A15_C15-Pad7)">
+      <node ref="U5" pin="7" pinfunction="P3.3_A15_C15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U5-P3.4_TB0.3_SMCLK-Pad47)">
+      <node ref="U5" pin="47" pinfunction="P3.4_TB0.3_SMCLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U5-P3.5_TB0.4_COUT-Pad48)">
+      <node ref="U5" pin="48" pinfunction="P3.5_TB0.4_COUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U5-P3.6_TB0.5-Pad49)">
+      <node ref="U5" pin="49" pinfunction="P3.6_TB0.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U5-P3.7_TB0.6-Pad50)">
+      <node ref="U5" pin="50" pinfunction="P3.7_TB0.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U5-P4.2_A10-Pad33)">
+      <node ref="U5" pin="33" pinfunction="P4.2_A10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U5-P4.3_A11-Pad34)">
+      <node ref="U5" pin="34" pinfunction="P4.3_A11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U5-P4.4_TB0.5-Pad57)">
+      <node ref="U5" pin="57" pinfunction="P4.4_TB0.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U5-P4.6-Pad59)">
+      <node ref="U5" pin="59" pinfunction="P4.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U5-P5.2_UCB1CLK_TA4CLK-Pad55)">
+      <node ref="U5" pin="55" pinfunction="P5.2_UCB1CLK_TA4CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U5-P6.0_UCA3TXD_UCA3SIMO-Pad8)">
+      <node ref="U5" pin="8" pinfunction="P6.0_UCA3TXD_UCA3SIMO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U5-P6.1_UCA3RXD_UCA3SOMI-Pad9)">
+      <node ref="U5" pin="9" pinfunction="P6.1_UCA3RXD_UCA3SOMI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U5-P6.2_UCA3CLK-Pad10)">
+      <node ref="U5" pin="10" pinfunction="P6.2_UCA3CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U5-P6.3_UCA3STE-Pad11)">
+      <node ref="U5" pin="11" pinfunction="P6.3_UCA3STE" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U5-P6.4_UCB3SIMO_UCB3SDA-Pad69)">
+      <node ref="U5" pin="69" pinfunction="P6.4_UCB3SIMO_UCB3SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U5-P6.5_UCB3SOMI_UCB3SCL-Pad70)">
+      <node ref="U5" pin="70" pinfunction="P6.5_UCB3SOMI_UCB3SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="169" name="unconnected-(U5-P6.6_UCB3CLK-Pad71)">
+      <node ref="U5" pin="71" pinfunction="P6.6_UCB3CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="170" name="unconnected-(U5-P7.6_A18-Pad29)">
+      <node ref="U5" pin="29" pinfunction="P7.6_A18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="171" name="unconnected-(U5-P7.7_A19-Pad30)">
+      <node ref="U5" pin="30" pinfunction="P7.7_A19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="172" name="unconnected-(U5-P8.1-Pad44)">
+      <node ref="U5" pin="44" pinfunction="P8.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="173" name="unconnected-(U5-PJ.4_LFXIN-Pad77)">
+      <node ref="U5" pin="77" pinfunction="PJ.4_LFXIN" pintype="input+no_connect"/>
+    </net>
+    <net code="174" name="unconnected-(U5-PJ.5_LFXOUT-Pad78)">
+      <node ref="U5" pin="78" pinfunction="PJ.5_LFXOUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="175" name="unconnected-(U5-PJ.7_HFXOUT-Pad75)">
+      <node ref="U5" pin="75" pinfunction="PJ.7_HFXOUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="176" name="unconnected-(U6-Pad1)">
+      <node ref="U6" pin="1" pintype="no_connect"/>
+    </net>
+    <net code="177" name="unconnected-(U6-Pad3)">
+      <node ref="U6" pin="3" pintype="no_connect"/>
+    </net>
+    <net code="178" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pintype="no_connect"/>
+    </net>
+    <net code="179" name="unconnected-(U8-GPIO0-Pad11)">
+      <node ref="U8" pin="11" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="180" name="unconnected-(U8-GPIO1-Pad13)">
+      <node ref="U8" pin="13" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="181" name="unconnected-(U8-GPIO2-Pad23)">
+      <node ref="U8" pin="23" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="182" name="unconnected-(U8-GPIO3-Pad24)">
+      <node ref="U8" pin="24" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="183" name="unconnected-(U8-GPIO4-Pad12)">
+      <node ref="U8" pin="12" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="184" name="unconnected-(U8-GPIO5-Pad14)">
+      <node ref="U8" pin="14" pinfunction="GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="185" name="unconnected-(U8-GPIO6-Pad28)">
+      <node ref="U8" pin="28" pinfunction="GPIO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="186" name="unconnected-(U8-GPIO7-Pad4)">
+      <node ref="U8" pin="4" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="187" name="unconnected-(U8-~{CTS0}-Pad15)">
+      <node ref="U8" pin="15" pinfunction="~{CTS0}" pintype="input+no_connect"/>
+    </net>
+    <net code="188" name="unconnected-(U8-~{CTS1}-Pad16)">
+      <node ref="U8" pin="16" pinfunction="~{CTS1}" pintype="input+no_connect"/>
+    </net>
+    <net code="189" name="unconnected-(U8-~{RTS0}-Pad21)">
+      <node ref="U8" pin="21" pinfunction="~{RTS0}" pintype="output+no_connect"/>
+    </net>
+    <net code="190" name="unconnected-(U8-~{RTS1}-Pad22)">
+      <node ref="U8" pin="22" pinfunction="~{RTS1}" pintype="output+no_connect"/>
+    </net>
+    <net code="191" name="unconnected-(U11-READY-Pad19)">
+      <node ref="U11" pin="19" pinfunction="READY" pintype="output+no_connect"/>
+    </net>
+    <net code="192" name="unconnected-(U11-~{INVALID}-Pad9)">
+      <node ref="U11" pin="9" pinfunction="~{INVALID}" pintype="output+no_connect"/>
+    </net>
+    <net code="193" name="unconnected-(U21-SDO-Pad5)">
+      <node ref="U21" pin="5" pinfunction="SDO" pintype="passive+no_connect"/>
+    </net>
+    <net code="194" name="unconnected-(U50-ST-Pad1)">
+      <node ref="U50" pin="1" pinfunction="ST" pintype="input+no_connect"/>
+    </net>
+    <net code="195" name="unconnected-(U80-READY-Pad19)">
+      <node ref="U80" pin="19" pinfunction="READY" pintype="output+no_connect"/>
+    </net>
+    <net code="196" name="unconnected-(U80-~{INVALID}-Pad9)">
+      <node ref="U80" pin="9" pinfunction="~{INVALID}" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

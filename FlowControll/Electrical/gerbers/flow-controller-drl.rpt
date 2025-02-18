@@ -1,0 +1,29 @@
+Drill report for flow-controller.kicad_pcb
+Created on 2/18/2025 11:07:11 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'flow-controller-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (186 holes)
+    T2  0.711mm  0.0280"  (10 holes)
+    T3  1.000mm  0.0394"  (12 holes)
+    T4  1.020mm  0.0402"  (6 holes)
+    T5  1.200mm  0.0472"  (4 holes)
+
+    Total plated holes count 218
+
+
+Drill file 'flow-controller-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.000mm  0.1181"  (2 holes)
+
+    Total unplated holes count 2

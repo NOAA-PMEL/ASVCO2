@@ -1,0 +1,18 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c56ebd83-5990-4900-b76a-178844cf61ec)
+
+  (paper "USLedger")
+
+  (title_block
+    (title "Command Terminal")
+    (rev "201")
+    (company "PMEL")
+    (comment 2 "Matt Casari")
+    (comment 4 "DRAFT")
+  )
+
+  (lib_symbols
+  )
+
+)

@@ -1,0 +1,96 @@
+*
+*
+G04 PADS VX.1.1 Build Number: 678707 generated Gerber (RS-274-X) file*
+G04 PC Version=2.1*
+*
+%IN "pCO2SensorBoard1_4_3.pc"*%
+*
+%MOIN*%
+*
+%FSLAX35Y35*%
+*
+*
+*
+*
+G04 PC Standard Apertures*
+*
+*
+G04 Thermal Relief Aperture macro.*
+%AMTER*
+1,1,$1,0,0*
+1,0,$1-$2,0,0*
+21,0,$3,$4,0,0,45*
+21,0,$3,$4,0,0,135*
+%
+*
+*
+G04 Annular Aperture macro.*
+%AMANN*
+1,1,$1,0,0*
+1,0,$2,0,0*
+%
+*
+*
+G04 Odd Aperture macro.*
+%AMODD*
+1,1,$1,0,0*
+1,0,$1-0.005,0,0*
+%
+*
+*
+G04 PC Custom Aperture Macros*
+*
+*
+*
+*
+*
+*
+G04 PC Aperture Table*
+*
+%ADD011C,0.01*%
+%ADD087C,0.001*%
+*
+*
+*
+*
+G04 PC Circuitry*
+G04 Layer Name pCO2SensorBoard1_4_3.pc - circuitry*
+%LPD*%
+*
+*
+G04 PC Custom Flashes*
+G04 Layer Name pCO2SensorBoard1_4_3.pc - flashes*
+%LPD*%
+*
+*
+G04 PC Circuitry*
+G04 Layer Name pCO2SensorBoard1_4_3.pc - circuitry*
+%LPD*%
+*
+G54D11*
+G01X100000Y100000D02*
+X500000D01*
+Y400000*
+X100000*
+Y100000*
+X358000Y146000D02*
+X348000D01*
+Y121000*
+X358000*
+Y111000*
+X338000*
+Y156000*
+X358000*
+Y146000*
+X368000Y156000D02*
+Y146000D01*
+X378000*
+Y121000*
+X368000*
+Y111000*
+X388000*
+Y156000*
+X368000*
+G54D87*
+X0Y0D02*
+M02*

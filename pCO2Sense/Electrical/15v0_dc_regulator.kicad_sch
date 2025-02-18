@@ -1,0 +1,39 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d406ae0d-d5a2-4d3a-8791-09153ebd70bc)
+
+  (paper "USLedger")
+
+  (title_block
+    (title "15V0 DC Regulator")
+    (rev "201")
+    (company "PMEL")
+    (comment 2 "Matt Casari")
+    (comment 4 "DRAFT")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "PWM" (shape input) (at 83.82 96.52 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 2b2be7d8-5872-4275-b4d0-e76d150e33c9)
+  )
+  (hierarchical_label "GND" (shape input) (at 86.36 106.68 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 330d335b-69a6-4c3f-af65-22ecd9ce3e1a)
+  )
+  (hierarchical_label "ENABLE" (shape input) (at 86.36 88.9 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 717c1744-0762-404a-9c99-f2b23893271f)
+  )
+  (hierarchical_label "VIN" (shape input) (at 83.82 76.2 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a920c573-750b-4d3b-96e2-66ec0b54182b)
+  )
+  (hierarchical_label "VOUT" (shape output) (at 256.54 91.44 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c5396c20-d0ee-4353-91c0-38a962cd9b84)
+  )
+)

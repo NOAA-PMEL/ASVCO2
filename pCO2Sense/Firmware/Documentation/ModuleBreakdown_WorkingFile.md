@@ -1,0 +1,46 @@
+# pCO2 Sensor Firmware Modules
+
+
+- [ ] main
+- [x] interrupts
+- [ ] src
+    - [x] +driverlib [TI Files]
+    - [x] bsp
+    - [x] buffer_c
+    - [x] buffer_f 
+    - [x] buffer8
+    - [x] buffer16
+    - [ ] buffer32
+    - [x] flowcontrol
+    - [x] MAX310X
+    - [x] LI820/830
+    - [ ] SDL
+    - [x] AM08x5
+    - [ ] RH: BME280 or MS8706
+    - [x] oxygen: MAX250
+    - [ ] console
+    - [ ] command
+    - [ ] errors
+    - [ ] statistics
+    - [ ] scheduler
+    - [ ] sysconfig
+- [ ] test
+    - [x] test_bsp
+    - [x] test_buffer_c
+    - [x] test_buffer_f
+    - [x] test_buffer8
+    - [x] test_buffer16
+    - [ ] test_buffer32
+    - [x] test_flowcontrol
+    - [x] test_MAX310X
+    - [x] test_LI8x0  [LiCor 820/830]
+    - [ ] test_SDL
+    - [x] test_AM08x5  [ Ambiq AM0815]
+    - [ ] test_BME820 or test_MS8706
+    - [x] test_MAX250
+    - [ ] test_console
+    - [ ] test_command
+    - [ ] test_errors
+    - [ ] test_statistics
+    - [ ] test_scheduler
+    

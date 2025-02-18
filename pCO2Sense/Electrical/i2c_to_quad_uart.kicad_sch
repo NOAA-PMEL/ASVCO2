@@ -1,0 +1,18 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 7a9c9f4e-9733-4333-b9e5-751c6cc22dc3)
+
+  (paper "USLedger")
+
+  (title_block
+    (title "I2C to Quad UART Interface")
+    (rev "201")
+    (company "PMEL")
+    (comment 2 "Matt Casari")
+    (comment 4 "DRAFT")
+  )
+
+  (lib_symbols
+  )
+
+)

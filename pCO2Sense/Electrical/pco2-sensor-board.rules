@@ -1,0 +1,182 @@
+
+(rules PCB pco2-sensor-board
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 4635)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.1)
+    )
+    (layer_rule "In1.Cu - GND"
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule In2.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.8)
+    )
+    (layer_rule In3.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule "In4.Cu - VCC"
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.3)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-5]_500:250_um"
+    (shape
+      (circle F.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle "In1.Cu - GND" 500.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle In3.Cu 500.0 0.0 0.0)
+    )
+    (shape
+      (circle "In4.Cu - VCC" 500.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 500.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-5]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle "In1.Cu - GND" 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle In3.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle "In4.Cu - VCC" 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-5]_500:250_um" "Via[0-5]_500:250_um" default
+  )
+  (via 
+    "Via[0-5]_800:400_um" "Via[0-5]_800:400_um" default
+  )
+  (via 
+    "Via[0-5]_500:250_um-kicad_default" "Via[0-5]_500:250_um" "kicad_default"
+  )
+  (via 
+    "Via[0-5]_800:400_um-kicad_default" "Via[0-5]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-5]_500:250_um-Power" "Via[0-5]_500:250_um" Power
+  )
+  (via 
+    "Via[0-5]_800:400_um-Power" "Via[0-5]_800:400_um" Power
+  )
+  (via_rule
+    default "Via[0-5]_500:250_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-5]_500:250_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-5]_800:400_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu In3.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +3V3 "Net-(C1-Pad1)" "Net-(U1-VIN)" "Net-(C7-Pad1)" +BATT "Net-(U9-PVIN)" "Net-(C10-Pad1)"
+    "Net-(C11-Pad2)" "Net-(C12-Pad2)" "Net-(U1-BOOST)" "Net-(U1-SW)" "Net-(C20-Pad1)" "Net-(U2--)" "/O2.VREF_EN" /O2.SENSOR
+    "Net-(U2-+)" /WD.nRESET /O2.VREF+ "Net-(U6-AF)" "Net-(U8-V18)" "Net-(U81-VOUT)" "Net-(U9-PVCC)" "Net-(U9-VC)"
+    "Net-(U9-FB)" "Net-(C93-Pad1)" "Net-(C94-Pad1)" "Net-(U9-SW1)" "Net-(U9-BST1)" "Net-(U9-SW2)" "Net-(U9-BST2)" "Net-(U11-C1-)"
+    "Net-(U11-C1+)" "Net-(U11-C2-)" "Net-(U11-C2+)" "Net-(U11-V-)" "Net-(U11-V+)" "Net-(U80-C1-)" "Net-(U80-C1+)" "Net-(U80-V+)"
+    "Net-(U80-V-)" "Net-(U80-C2-)" "Net-(U80-C2+)" "Net-(U5-P6.7_UCB3STE)" "Net-(GRN_LED1-Pad1)" "/GREEN_LED" "/Dual Serial Interface 2/TX2_OUT" "/Dual Serial Interface 2/RX2_IN"
+    "/Dual Serial Interface 1/RX1_IN" "/Dual Serial Interface 1/TX1_OUT" "/Dual Serial Interface 1/RX2_IN" "/Dual Serial Interface 1/TX2_OUT" "/Dual Serial Interface 2/TX1_OUT" "/Dual Serial Interface 2/RX1_IN" /RH.SCL /RH.SDA
+    "/Oxygen Sensor/SENSOR+" "/Watchdog Timer/ENABLE" "Net-(JTAG_MINI1-Pad1)" "Net-(JTAG_MINI1-Pad2)" "Net-(JTAG_MINI1-Pad4)" "Net-(JTAG_MINI1-Pad6)" /SBWTCK "Net-(JTAG_MINI1-Pad8)"
+    "unconnected-(J4-Pad4)" "/Dual Serial Interface 2/TX2_IN" "/COMMAND_UART.TX" "/UART_MOSI" "Net-(Q1-G)" "/Dual Serial Interface 2/TX1_IN" "/LICOR_UART.TX" "Net-(U8-MOSI{slash}A1)"
+    /RTC.nTIRQ /RTC.nIRQ2 "Net-(R7-Pad2)" "Net-(U6-NTIRQ)" "Net-(R8-Pad2)" "Net-(U6-NIRQ2)" "/Dual Serial Interface 2/RX1_OUT" "/LICOR_UART.RX"
+    "Net-(U21-SDI)" "Net-(U9-RT)" "/Dual Serial Interface 2/RX2_OUT" "/COMMAND_UART.RX" "Net-(U1-RT)" "Net-(U1-EN)" "Net-(R51-Pad2)" "Net-(U3-DELAY_M_RST)"
+    "/UART_MISO" "Net-(U3-~{RST})" "/FLOW_TX" "/FLOW_RX" "Net-(U81-ADJ{slash}SENSE)" "Net-(U8-MISO)" "/SPARE_TX" "/SPARE_RX"
+    "Net-(U8-TX0)" "/RED_LED" "/nUART_CS" "Net-(U8-RX0)" "/UART_SCK" "Net-(U8-TX1)" "Net-(U8-RX1)" /TCK
+    /TMS /TDI /TDO "Net-(U8-~{CS}{slash}A0)" /RTC.SDA "Net-(U8-SCLK)" /RTC.SCL "/Real-Time Clock/WDI"
+    /RTC.IRQ1 /RTC.EXTI "/15V_ENABLE" "/15V_PWM" "/WD.nCS_DOG" "/nUART_I2C" "/nUART_RESET" "/nUART_IRQ"
+    "/nLICOR_ENABLE" "/FLOW_CONTROL_ENABLE" "Net-(U21-SCK)" "unconnected-(U2-Pad1)" "unconnected-(U2-Pad5)" "unconnected-(U2-Pad8)" "Net-(U6-SDA)" "Net-(U6-SCL)"
+    "unconnected-(U1-PG-Pad9)" "unconnected-(U3-WAKE-Pad5)" "unconnected-(U5-P3.0_A12_C12-Pad4)" "unconnected-(U5-P3.1_A13_C13-Pad5)" "unconnected-(U5-P3.2_A14_C14-Pad6)" "unconnected-(U5-P3.3_A15_C15-Pad7)" "unconnected-(U5-P6.0_UCA3TXD_UCA3SIMO-Pad8)" "unconnected-(U5-P6.1_UCA3RXD_UCA3SOMI-Pad9)"
+    "unconnected-(U5-P6.2_UCA3CLK-Pad10)" "unconnected-(U5-P6.3_UCA3STE-Pad11)" "unconnected-(U5-P7.6_A18-Pad29)" "unconnected-(U5-P7.7_A19-Pad30)" "unconnected-(U5-P4.2_A10-Pad33)" "unconnected-(U5-P4.3_A11-Pad34)" "unconnected-(U5-P2.0_TB0.6_UCA0TXD_UCA0SIMO_TB0CLK_ACLK-Pad41)" "unconnected-(U5-P2.1_TB0.0_UCA0RXD_UCA0SOMI-Pad42)"
+    "unconnected-(U5-P2.2_TB0.2_UCB0CLK-Pad43)" "unconnected-(U5-P8.1-Pad44)" "unconnected-(U5-P3.4_TB0.3_SMCLK-Pad47)" "unconnected-(U5-P3.5_TB0.4_COUT-Pad48)" "unconnected-(U5-P3.6_TB0.5-Pad49)" "unconnected-(U5-P3.7_TB0.6-Pad50)" "unconnected-(U5-P5.2_UCB1CLK_TA4CLK-Pad55)" "unconnected-(U5-P4.6-Pad59)"
+    "unconnected-(U5-P2.7-Pad62)" "unconnected-(U5-P2.3_TA0.0_UCA1STE_A6_C10-Pad63)" "unconnected-(U5-P2.4_TA1.0_UCA1CLK_A7_C11-Pad64)" "unconnected-(U5-P6.4_UCB3SIMO_UCB3SDA-Pad69)" "unconnected-(U5-P6.5_UCB3SOMI_UCB3SCL-Pad70)" "unconnected-(U5-P6.6_UCB3CLK-Pad71)" "Net-(U5-PJ.6_HFXIN)" "unconnected-(U5-PJ.7_HFXOUT-Pad75)"
+    "unconnected-(U5-PJ.4_LFXIN-Pad77)" "unconnected-(U5-PJ.5_LFXOUT-Pad78)" "Net-(U6-XO)" "Net-(U6-XI)" "unconnected-(U8-GPIO7-Pad4)" "unconnected-(U8-GPIO0-Pad11)" "unconnected-(U8-GPIO4-Pad12)" "unconnected-(U8-GPIO1-Pad13)"
+    "unconnected-(U8-GPIO5-Pad14)" "unconnected-(U8-~{CTS0}-Pad15)" "unconnected-(U8-~{CTS1}-Pad16)" "unconnected-(U8-~{RTS0}-Pad21)" "unconnected-(U8-~{RTS1}-Pad22)" "unconnected-(U8-GPIO2-Pad23)" "unconnected-(U8-GPIO3-Pad24)" "Net-(U8-XIN)"
+    "Net-(U8-XOUT)" "unconnected-(U8-GPIO6-Pad28)" "unconnected-(U11-~{INVALID}-Pad9)" "unconnected-(U11-READY-Pad19)" "unconnected-(U6-Pad1)" "unconnected-(U6-Pad3)" "unconnected-(U6-Pad8)" "unconnected-(U21-SDO-Pad5)"
+    "unconnected-(U50-ST-Pad1)" "unconnected-(U80-~{INVALID}-Pad9)" "unconnected-(U80-READY-Pad19)" "Net-(U50-VCC)" "Net-(U6-VBAT)" "unconnected-(U5-P4.4_TB0.5-Pad57)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu In3.Cu B.Cu)
+    )
+  )
+  (class Power
+    +15V "/Peripheral Power Control/LICOR_POWER_OUT" "/Peripheral Power Control/FLOW_CONTROL_POWER_OUT"
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu In2.Cu In3.Cu B.Cu)
+    )
+  )
+)

@@ -1,0 +1,23 @@
+### Footprint positions - created on Tue Feb 18 11:07:21 2025 ###
+### Printed by KiCad version 7.0.10
+## Unit = inches, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                           PosX       PosY       Rot  Side
+C12       0.47uF    C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.3493    -3.4257   90.0000  bottom
+C15       0.1uF     C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.2116    -3.2874  -90.0000  bottom
+C16       0.33mF    CP_Radial_D12.5mm_P5.00mm                       2.9154    -3.3731  -90.0000  bottom
+C17       0.47uF    C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     2.2243    -4.0757  180.0000  bottom
+C21       0.33mF    CP_Radial_D12.5mm_P5.00mm                       2.9252    -4.4922  -90.0000  bottom
+J1        VALVE_1   PinHeader_1x02_P2.54mm_Vertical                 3.1963    -4.1347  -90.0000  bottom
+J2        VALVE_2   PinHeader_1x02_P2.54mm_Vertical                 3.5963    -3.8347  -90.0000  bottom
+J3        VALVE_3   PinHeader_1x02_P2.54mm_Vertical                 2.7963    -4.1347  -90.0000  bottom
+J4        VALVE_4   PinHeader_1x02_P2.54mm_Vertical                 2.7963    -3.8347  -90.0000  bottom
+J5        VALVE_5   PinHeader_1x02_P2.54mm_Vertical                 3.5963    -4.1347  -90.0000  bottom
+J6        VALVE_6   PinHeader_1x02_P2.54mm_Vertical                 3.1963    -3.8347  -90.0000  bottom
+R3        0.5       R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     3.6250    -3.4250  -90.0000  bottom
+R4        0.5       R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     3.6500    -3.6500   90.0000  bottom
+R5        0.5       R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     3.2500    -3.6500   90.0000  bottom
+R6        0.5       R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     3.2750    -3.4250  -90.0000  bottom
+R8        0.5       R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     2.5750    -3.7000   90.0000  bottom
+R9        0.5       R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     2.4918    -4.2185  180.0000  bottom
+## End

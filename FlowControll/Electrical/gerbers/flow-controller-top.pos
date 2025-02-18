@@ -1,0 +1,48 @@
+### Footprint positions - created on Tue Feb 18 11:07:21 2025 ###
+### Printed by KiCad version 7.0.10
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                           PosX       PosY       Rot  Side
+C1        10uF                 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.7743    -3.9507   90.0000  top
+C2        0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.4243    -4.0007    0.0000  top
+C3        0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.4243    -3.9257    0.0000  top
+C4        0.22uF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.5552    -4.5163  -90.0000  top
+C5        0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.7212    -4.3163    0.0000  top
+C6        10uF                 C_1206_3216Metric_Pad1.33x1.80mm_HandSolder     4.6937    -4.2163  180.0000  top
+C7        47uF                 C_1210_3225Metric_Pad1.33x2.70mm_HandSolder     4.8750    -4.6750  -90.0000  top
+C8        10uF                 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.8653    -3.3007  180.0000  top
+C9        10uF                 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.0743    -3.3257  -90.0000  top
+C10       10uF                 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.0243    -3.7507    0.0000  top
+C11       47uF                 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.6993    -3.9507   90.0000  top
+C13       0.01uF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.5493    -3.2757    0.0000  top
+C14       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     3.3993    -3.2757    0.0000  top
+C18       0.01uF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     2.1243    -3.8757   90.0000  top
+C19       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     2.1243    -4.1257   90.0000  top
+C20       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     2.1493    -4.4007   90.0000  top
+C22       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.1743    -3.9757  180.0000  top
+C23       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.1243    -4.1007  -90.0000  top
+C24       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.2743    -4.0257   90.0000  top
+C25       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.1243    -4.2507   90.0000  top
+C26       0.1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.5743    -4.0007  180.0000  top
+C27       10nF                 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     4.8653    -3.4507    0.0000  top
+D1        S1B-F-2              D_SMA_Handsoldering                             3.5993    -4.4757  -90.0000  top
+J7        3220-10-0100-00      3220-10-0100-00                                 3.9243    -3.9757  -90.0000  top
+J8        PUMP                 430450202                                       3.2993    -4.6000    0.0000  top
+J9        430450402            430450402                                       4.3250    -4.6000    0.0000  top
+L1        VLCF4028T-220MR72-2  VLCF4028T-220MR72-2                             4.6552    -4.7663  180.0000  top
+R1        226k                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     4.8500    -4.5250    0.0000  top
+R2        470R                 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     3.8993    -4.4007  180.0000  top
+R7        120                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     4.8493    -3.8007  -90.0000  top
+R10       120                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     4.9243    -3.8007  -90.0000  top
+R11       1k                   R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     3.7493    -4.5757  -90.0000  top
+R12       47k                  R_0603_1608Metric_Pad0.98x0.95mm_HandSolder     4.8653    -3.3757  180.0000  top
+U1        MSP430FR5994IPNR     MSP430FR5994IPNR                                4.4243    -3.5507   90.0000  top
+U2        LT3970EMS-3.3-PBF    LT3970EMS-3.3-PBF                               4.7052    -4.5163  -90.0000  top
+U3        MEM2012F10R0         MEM2012F10R0                                    4.0243    -3.4757  180.0000  top
+U4        SG-210STF_7.3728ML   SG-210STF_7.3728ML                              4.0243    -3.6257   90.0000  top
+U5        DRV8823QDCARQ1       HTSSOP48                                        3.4493    -3.5257  180.0000  top
+U6        DRV8823QDCARQ1       HTSSOP48                                        2.3493    -4.0007  -90.0000  top
+U7        LTST-C195KGJRKT      LTST-C195KGJRKT                                 4.8828    -3.6257    0.0000  top
+U8        MAX3224EETP+         MAX3224EETP+                                    4.3493    -4.2257    0.0000  top
+U9        AQY282S              AQY282S                                         3.7905    -4.8250  180.0000  top
+## End

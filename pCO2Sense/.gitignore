@@ -1,0 +1,133 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Ruby and Ceedling
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+.yardoc
+*.sublime-workspace
+
+# Temp Files
+*.tmp
+
+
+# IAR Embedded Workbench Files
+*.dep
+*.eww
+*.celltemp
+
+# Random Files
+Test/TestPlans/Benchtop.html
+Test/TestPlans/Benchtop_tmp.html
+Firmware/pCO2Sensor/log.txt
+Firmware/Documentation/BoardDev_Stage.md
+
+
+# Directories
+Firmware/pCO2Sensor/Debug/
+Firmware/pCO2Sensor/build/				 
+Firmware/pCO2Sensor/settings/
+Firmware/pCO2Sensor/build/
+Firmware/pCO2Sensor/.vscode/
+Firmware/Documentation/pCO2_Commands.pdf
+Firmware/pCO2Sensor/src/version.h
+Firmware/pCO2Sensor/pCO2Sensor.ewd
+Firmware/pCO2Sensor/pCO2Sensor.ewt
+Firmware/pCO2Sensor/path.txt
+Firmware/pCO2Sensor/Backup of pCO2Sensor.ewp
+Firmware/pCO2Sensor/test.bat
+Documentation/Test Plans/New Licor/LicorTestPlan.md
+Documentation/Test Plans/New Licor/LI830_TestPlan.docx
+Documentation/Design/PCB_FinalIdeas'.vsdx
+Test/LogicAnalyzerSetup/J14_v2.logicsettings
+Test/LogicAnalyzerSetup/J11.logicsettings
+Test/LogicAnalyzerSetup/J13.logicsettings
+Test/LogicAnalyzerSetup/J14.logicsettings
+Test/Analog/
+Test/LogicAnalyzerSetup/
+Software/pCO2Sample/pco2_sample/COEFF/
+Software/pCO2Sample/pco2_sample/DATA/
+Software/pCO2Sample/pco2_sample/LOG/
+Software/pCO2Sample/pco2_sample/STATS/
+Software/pCO2Sample/pco2_sample/__pycache__/
+Software/pCO2Sample/pco2_sample/.pytest_cache/
+Software/pCO2Sample/pco2_sample/.spyproject/
+
+
+
+Software/pCO2Sample/2022*.*
+.vscode/settings.json
+
+.venv
+.vscode
+Backup*.*
+
+
+Software/pCO2Sample/All
+Software/pCO2Sample/COEFF
+Software/pCO2Sample/DATA
+Software/pCO2Sample/DRY
+Software/pCO2Sample/LOG
+Software/pCO2Sample/STATS
+Software/pCO2Sample/simple.py
+q   
+
+fc-test-log.txt
+fc-test.txt
+test-log.txt
+test/support/
+ts-test-1.txt
+__pycache__
+test/support/*

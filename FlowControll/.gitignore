@@ -1,0 +1,96 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Ruby and Ceedling
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+.yardoc
+*.sublime-workspace
+
+
+# Directories
+Firmware/FlowControl/build/*
+Firmware/FlowControl/doxygen/*
+Firmware/FlowControl/LogicAnalyzer/*
+Firmware/FlowControl/settings/*
+Firmware/FlowControl/Backup*.*
+Firmware/FlowControl/Debug/*
+
+*_old.*
+*.d43
+*.lst
+*.pbi
+*.dep
+*.ewd
+*.ewt
+*.eww
+version.hex
+*.tmp
+Firmware/FlowControl/Doxyfile
+Firmware/FlowControl/path.txt
+Firmware/FlowControl/version.h
+Firmware/FlowControl/src/buffer32.c
+Firmware/FlowControl/src/buffer32.h
+Test/Firmware/TestStatus.xlsx
+Test/TestRequirements.pdf
+Firmware/FlowControl/src/version.h
+Firmware/FlowControl/src/config.h
+Firmware/Documentation/ModuleBreakdown_WorkingFile.md
+Documentation/ValveStates/FC_ValveStates.vsdx
+
+
+.venv/
+__pycache__
+.vscode/
