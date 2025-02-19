@@ -10,6 +10,5 @@ You agree to acknowledge NOAA-PMEL and UW on splash pages, and in publications, 
 ## NOAA Legal Disclaimers
 *NOAA does not intend to patent this work worldwide. It may be used freely, but NOAA does not warrant its fitness for any use.*
 
-*As a work of the United States Government, the associated schematics and software are in the public domain within the United States.  
-Additionally, NOAA waives any potential copyright and related rights in the associated schematics and software worldwide.*
+*As a work of the United States Government, the associated schematics and software are in the public domain within the United States. Additionally, NOAA waives any potential copyright and related rights in the associated schematics and software worldwide.*
 
